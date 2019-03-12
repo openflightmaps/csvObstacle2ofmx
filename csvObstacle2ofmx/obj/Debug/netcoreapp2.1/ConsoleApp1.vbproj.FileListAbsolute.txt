@@ -1,0 +1,11 @@
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\obstacleCsv2ofmx.deps.json
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\obstacleCsv2ofmx.runtimeconfig.json
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\obstacleCsv2ofmx.runtimeconfig.dev.json
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\obstacleCsv2ofmx.dll
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.1\obstacleCsv2ofmx.pdb
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.vbprojAssemblyReference.cache
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.vbproj.CoreCompileInputs.cache
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.vb
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\obstacleCsv2ofmx.dll
+C:\Users\ovord\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.1\obstacleCsv2ofmx.pdb

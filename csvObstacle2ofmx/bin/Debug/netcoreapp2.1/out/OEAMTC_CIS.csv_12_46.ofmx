@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="09.03.2019 17:46:41T09.03.2019 17:46:41" origin="csvObstacle2ofmx" created="09.03.2019 17:46:41T09.03.2019 17:46:41" namespace="210444d1-4576-e92d-0983-4669182a8c04">
+  <Ogr>
+    <OgrUid dbUid="5018008">
+      <txtName>St. Gilgen/Unterach Mast 4501 b</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018008.0">
+      <OgrUid dbUid="5018008">
+        <txtName>St. Gilgen/Unterach Mast 4501 b</txtName>
+      </OgrUid>
+      <geoLat>47.7983333342612N</geoLat>
+      <geoLong>13.4808333333336E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018009">
+      <txtName>Waidhofen/Y.</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018009.0">
+      <OgrUid dbUid="5018009">
+        <txtName>Waidhofen/Y.</txtName>
+      </OgrUid>
+      <geoLat>47.9672222231504N</geoLat>
+      <geoLong>14.6602777777778E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018010">
+      <txtName>Windpark Bad Deutsch Altenburg BDA 6</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018010.0">
+      <OgrUid dbUid="5018010">
+        <txtName>Windpark Bad Deutsch Altenburg BDA 6</txtName>
+      </OgrUid>
+      <geoLat>48.10274713N</geoLat>
+      <geoLong>16.88732497E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018011">
+      <txtName>Windpark Fürstkogel zwei</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018011.0">
+      <OgrUid dbUid="5018011">
+        <txtName>Windpark Fürstkogel zwei</txtName>
+      </OgrUid>
+      <geoLat>47.426N</geoLat>
+      <geoLong>15.5855E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018012">
+      <txtName>Windpark Gänserndorf WEA 04</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018012.0">
+      <OgrUid dbUid="5018012">
+        <txtName>Windpark Gänserndorf WEA 04</txtName>
+      </OgrUid>
+      <geoLat>48.36848876N</geoLat>
+      <geoLong>16.74314917E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018013">
+      <txtName>Windpark Hipples V11480</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018013.0">
+      <OgrUid dbUid="5018013">
+        <txtName>Windpark Hipples V11480</txtName>
+      </OgrUid>
+      <geoLat>48.5022009N</geoLat>
+      <geoLong>16.42788328E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018014">
+      <txtName>Windpark Hohenruppersdorf 2 WEA HR II 01</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018014.0">
+      <OgrUid dbUid="5018014">
+        <txtName>Windpark Hohenruppersdorf 2 WEA HR II 01</txtName>
+      </OgrUid>
+      <geoLat>48.46314087N</geoLat>
+      <geoLong>16.68509522E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018015">
+      <txtName>Windpark Hohenruppersdorf 2 WEA HR II 02</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018015.0">
+      <OgrUid dbUid="5018015">
+        <txtName>Windpark Hohenruppersdorf 2 WEA HR II 02</txtName>
+      </OgrUid>
+      <geoLat>48.45884578N</geoLat>
+      <geoLong>16.68350043E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018016">
+      <txtName>Windpark Spannberg 2 WEA SPA 2 03</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018016.0">
+      <OgrUid dbUid="5018016">
+        <txtName>Windpark Spannberg 2 WEA SPA 2 03</txtName>
+      </OgrUid>
+      <geoLat>48.44056772N</geoLat>
+      <geoLong>16.71282119E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018017">
+      <txtName>Windpark Spannberg 2 WEA SPA 2 04</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018017.0">
+      <OgrUid dbUid="5018017">
+        <txtName>Windpark Spannberg 2 WEA SPA 2 04</txtName>
+      </OgrUid>
+      <geoLat>48.44195383N</geoLat>
+      <geoLong>16.71630321E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018018">
+      <txtName>Windpark Spannberg 22269</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018018.0">
+      <OgrUid dbUid="5018018">
+        <txtName>Windpark Spannberg 22269</txtName>
+      </OgrUid>
+      <geoLat>48.44953614N</geoLat>
+      <geoLong>16.71037491E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018019">
+      <txtName>Windpark Spannberg 22270</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018019.0">
+      <OgrUid dbUid="5018019">
+        <txtName>Windpark Spannberg 22270</txtName>
+      </OgrUid>
+      <geoLat>48.45156414N</geoLat>
+      <geoLong>16.70601891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018020">
+      <txtName>Windpark Spannberg 22271</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018020.0">
+      <OgrUid dbUid="5018020">
+        <txtName>Windpark Spannberg 22271</txtName>
+      </OgrUid>
+      <geoLat>48.45138314N</geoLat>
+      <geoLong>16.69963891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018021">
+      <txtName>Windpark Spannberg 22272</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018021.0">
+      <OgrUid dbUid="5018021">
+        <txtName>Windpark Spannberg 22272</txtName>
+      </OgrUid>
+      <geoLat>48.45265314N</geoLat>
+      <geoLong>16.69091691E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018022">
+      <txtName>Windpark Spannberg 22273</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018022.0">
+      <OgrUid dbUid="5018022">
+        <txtName>Windpark Spannberg 22273</txtName>
+      </OgrUid>
+      <geoLat>48.45440814N</geoLat>
+      <geoLong>16.68564391E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018023">
+      <txtName>Windpark Spannberg 22274</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018023.0">
+      <OgrUid dbUid="5018023">
+        <txtName>Windpark Spannberg 22274</txtName>
+      </OgrUid>
+      <geoLat>48.46157214N</geoLat>
+      <geoLong>16.69211691E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018024">
+      <txtName>Windpark Spannberg II 209037</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018024.0">
+      <OgrUid dbUid="5018024">
+        <txtName>Windpark Spannberg II 209037</txtName>
+      </OgrUid>
+      <geoLat>48.43815614N</geoLat>
+      <geoLong>16.70432791E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018025">
+      <txtName>Windpark Spannberg II 209038</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018025.0">
+      <OgrUid dbUid="5018025">
+        <txtName>Windpark Spannberg II 209038</txtName>
+      </OgrUid>
+      <geoLat>48.43827214N</geoLat>
+      <geoLong>16.70980291E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018026">
+      <txtName>Windpark Spannberg II 209039</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018026.0">
+      <OgrUid dbUid="5018026">
+        <txtName>Windpark Spannberg II 209039</txtName>
+      </OgrUid>
+      <geoLat>48.44050014N</geoLat>
+      <geoLong>16.71283291E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018027">
+      <txtName>Windpark Spannberg II 209040</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018027.0">
+      <OgrUid dbUid="5018027">
+        <txtName>Windpark Spannberg II 209040</txtName>
+      </OgrUid>
+      <geoLat>48.44191114N</geoLat>
+      <geoLong>16.71628891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018028">
+      <txtName>Windpark Spannberg WEA 02</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018028.0">
+      <OgrUid dbUid="5018028">
+        <txtName>Windpark Spannberg WEA 02</txtName>
+      </OgrUid>
+      <geoLat>48.46084781N</geoLat>
+      <geoLong>16.69191263E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018029">
+      <txtName>Windpark Steinberg Prinzendorf V17295</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018029.0">
+      <OgrUid dbUid="5018029">
+        <txtName>Windpark Steinberg Prinzendorf V17295</txtName>
+      </OgrUid>
+      <geoLat>48.5873009N</geoLat>
+      <geoLong>16.73788329E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018030">
+      <txtName>Windpark Steinberg Prinzendorf V17296</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018030.0">
+      <OgrUid dbUid="5018030">
+        <txtName>Windpark Steinberg Prinzendorf V17296</txtName>
+      </OgrUid>
+      <geoLat>48.58343423N</geoLat>
+      <geoLong>16.73734996E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018031">
+      <txtName>Windpark Steinberg Prinzendorf V17297</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018031.0">
+      <OgrUid dbUid="5018031">
+        <txtName>Windpark Steinberg Prinzendorf V17297</txtName>
+      </OgrUid>
+      <geoLat>48.58518423N</geoLat>
+      <geoLong>16.74534996E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018032">
+      <txtName>Windpark Steinberg Prinzendorf V17298</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018032.0">
+      <OgrUid dbUid="5018032">
+        <txtName>Windpark Steinberg Prinzendorf V17298</txtName>
+      </OgrUid>
+      <geoLat>48.58863423N</geoLat>
+      <geoLong>16.74333329E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5018033">
+      <txtName>Zederhaus/Mobilfunkstation Sonnberg 51225 A</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5018033.0">
+      <OgrUid dbUid="5018033">
+        <txtName>Zederhaus/Mobilfunkstation Sonnberg 51225 A</txtName>
+      </OgrUid>
+      <geoLat>47.1294444453753N</geoLat>
+      <geoLong>13.5588888888891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+</OFMX-Snapshot>

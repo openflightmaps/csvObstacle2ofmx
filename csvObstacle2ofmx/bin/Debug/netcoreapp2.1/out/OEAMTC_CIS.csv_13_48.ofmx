@@ -1,0 +1,4154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="09.03.2019 17:46:42T09.03.2019 17:46:42" origin="csvObstacle2ofmx" created="09.03.2019 17:46:42T09.03.2019 17:46:42" namespace="210444d1-4576-e92d-0983-4669182a8c04">
+  <Ogr>
+    <OgrUid dbUid="5019004">
+      <txtName>3S Kitzsteinhorn Liner</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019004.0">
+      <OgrUid dbUid="5019004">
+        <txtName>3S Kitzsteinhorn Liner</txtName>
+      </OgrUid>
+      <geoLat>47.258003N</geoLat>
+      <geoLong>12.715853E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019004.1">
+      <OgrUid dbUid="5019004">
+        <txtName>3S Kitzsteinhorn Liner</txtName>
+      </OgrUid>
+      <geoLat>47.220967N</geoLat>
+      <geoLong>12.699297E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019005">
+      <txtName>Ruepeler</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019005.0">
+      <OgrUid dbUid="5019005">
+        <txtName>Ruepeler</txtName>
+      </OgrUid>
+      <geoLat>47.1295824526897N</geoLat>
+      <geoLong>11.5225585009726E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019005.1">
+      <OgrUid dbUid="5019005">
+        <txtName>Ruepeler</txtName>
+      </OgrUid>
+      <geoLat>47.1305131664085N</geoLat>
+      <geoLong>11.5237243523454E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019006">
+      <txtName>Ruetz Überspannung Volderau</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019006.0">
+      <OgrUid dbUid="5019006">
+        <txtName>Ruetz Überspannung Volderau</txtName>
+      </OgrUid>
+      <geoLat>47.0600132057326N</geoLat>
+      <geoLong>11.2452089691561E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019006.1">
+      <OgrUid dbUid="5019006">
+        <txtName>Ruetz Überspannung Volderau</txtName>
+      </OgrUid>
+      <geoLat>47.0604759836262N</geoLat>
+      <geoLong>11.2434928686227E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019007">
+      <txtName>RÜFIBAHN II</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019007.0">
+      <OgrUid dbUid="5019007">
+        <txtName>RÜFIBAHN II</txtName>
+      </OgrUid>
+      <geoLat>47.2077800009312N</geoLat>
+      <geoLong>10.1422199999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019007.1">
+      <OgrUid dbUid="5019007">
+        <txtName>RÜFIBAHN II</txtName>
+      </OgrUid>
+      <geoLat>47.2016700009312N</geoLat>
+      <geoLong>10.1669399999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019008">
+      <txtName>RÜFIBAHN II</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019008.0">
+      <OgrUid dbUid="5019008">
+        <txtName>RÜFIBAHN II</txtName>
+      </OgrUid>
+      <geoLat>47.2077800009312N</geoLat>
+      <geoLong>10.1422199999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019008.1">
+      <OgrUid dbUid="5019008">
+        <txtName>RÜFIBAHN II</txtName>
+      </OgrUid>
+      <geoLat>47.2016700009312N</geoLat>
+      <geoLong>10.1669399999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019009">
+      <txtName>RÜFIKOPF</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019009.0">
+      <OgrUid dbUid="5019009">
+        <txtName>RÜFIKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.2080600009312N</geoLat>
+      <geoLong>10.1424999999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019009.1">
+      <OgrUid dbUid="5019009">
+        <txtName>RÜFIKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.2022200009312N</geoLat>
+      <geoLong>10.1663899999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019010">
+      <txtName>RÜFIKOPF</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019010.0">
+      <OgrUid dbUid="5019010">
+        <txtName>RÜFIKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.2080600009312N</geoLat>
+      <geoLong>10.1424999999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019010.1">
+      <OgrUid dbUid="5019010">
+        <txtName>RÜFIKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.2022200009312N</geoLat>
+      <geoLong>10.1663899999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019011">
+      <txtName>Russbach am Pass Gschuett / Edtalmlift Schlepplift</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019011.0">
+      <OgrUid dbUid="5019011">
+        <txtName>Russbach am Pass Gschuett / Edtalmlift Schlepplift</txtName>
+      </OgrUid>
+      <geoLat>47.5566666675955N</geoLat>
+      <geoLong>13.4797222222225E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019011.1">
+      <OgrUid dbUid="5019011">
+        <txtName>Russbach am Pass Gschuett / Edtalmlift Schlepplift</txtName>
+      </OgrUid>
+      <geoLat>47.55861111204N</geoLat>
+      <geoLong>13.4838888888891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019012">
+      <txtName>Russbach am Pass Gschuett / Heideggriedel Schlepplift</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019012.0">
+      <OgrUid dbUid="5019012">
+        <txtName>Russbach am Pass Gschuett / Heideggriedel Schlepplift</txtName>
+      </OgrUid>
+      <geoLat>47.5530555564844N</geoLat>
+      <geoLong>13.4722222222225E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019012.1">
+      <OgrUid dbUid="5019012">
+        <txtName>Russbach am Pass Gschuett / Heideggriedel Schlepplift</txtName>
+      </OgrUid>
+      <geoLat>47.5519444453733N</geoLat>
+      <geoLong>13.4791666666669E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019013">
+      <txtName>Saalbach / Zwoelfer Nord EUB</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019013.0">
+      <OgrUid dbUid="5019013">
+        <txtName>Saalbach / Zwoelfer Nord EUB</txtName>
+      </OgrUid>
+      <geoLat>47.3758333342451N</geoLat>
+      <geoLong>12.5652777777778E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019013.1">
+      <OgrUid dbUid="5019013">
+        <txtName>Saalbach / Zwoelfer Nord EUB</txtName>
+      </OgrUid>
+      <geoLat>47.3605555564676N</geoLat>
+      <geoLong>12.5691666666667E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019014">
+      <txtName>Saalfelden / Steinalm</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019014.0">
+      <OgrUid dbUid="5019014">
+        <txtName>Saalfelden / Steinalm</txtName>
+      </OgrUid>
+      <geoLat>47.4416666675886N</geoLat>
+      <geoLong>12.8711111111113E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019014.1">
+      <OgrUid dbUid="5019014">
+        <txtName>Saalfelden / Steinalm</txtName>
+      </OgrUid>
+      <geoLat>47.4469444453665N</geoLat>
+      <geoLong>12.8761111111113E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019015">
+      <txtName>Sachser (6 Seile)</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019015.0">
+      <OgrUid dbUid="5019015">
+        <txtName>Sachser (6 Seile)</txtName>
+      </OgrUid>
+      <geoLat>46.7828640832867N</geoLat>
+      <geoLong>12.5940979031864E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019015.1">
+      <OgrUid dbUid="5019015">
+        <txtName>Sachser (6 Seile)</txtName>
+      </OgrUid>
+      <geoLat>46.7813037129872N</geoLat>
+      <geoLong>12.5962171299016E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019015.2">
+      <OgrUid dbUid="5019015">
+        <txtName>Sachser (6 Seile)</txtName>
+      </OgrUid>
+      <geoLat>46.7838158865801N</geoLat>
+      <geoLong>12.5976498872695E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019015.3">
+      <OgrUid dbUid="5019015">
+        <txtName>Sachser (6 Seile)</txtName>
+      </OgrUid>
+      <geoLat>46.7828640832867N</geoLat>
+      <geoLong>12.5940979031864E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019016">
+      <txtName>Safari Express 3 S Bahn</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019016.0">
+      <OgrUid dbUid="5019016">
+        <txtName>Safari Express 3 S Bahn</txtName>
+      </OgrUid>
+      <geoLat>47.3892370592855N</geoLat>
+      <geoLong>12.3469885289883E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019016.1">
+      <OgrUid dbUid="5019016">
+        <txtName>Safari Express 3 S Bahn</txtName>
+      </OgrUid>
+      <geoLat>47.3656665468546N</geoLat>
+      <geoLong>12.3805299658238E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019017">
+      <txtName>Sajat Hütte</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019017.0">
+      <OgrUid dbUid="5019017">
+        <txtName>Sajat Hütte</txtName>
+      </OgrUid>
+      <geoLat>47.0222592183847N</geoLat>
+      <geoLong>12.3484447796399E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019017.1">
+      <OgrUid dbUid="5019017">
+        <txtName>Sajat Hütte</txtName>
+      </OgrUid>
+      <geoLat>47.0381338248183N</geoLat>
+      <geoLong>12.3530899558444E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019018">
+      <txtName>SALOBERKOPF</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019018.0">
+      <OgrUid dbUid="5019018">
+        <txtName>SALOBERKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.265830000931N</geoLat>
+      <geoLong>10.1280599999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019018.1">
+      <OgrUid dbUid="5019018">
+        <txtName>SALOBERKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.254720000931N</geoLat>
+      <geoLong>10.1327799999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019019">
+      <txtName>Salvenbahn II 8 EUB</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019019.0">
+      <OgrUid dbUid="5019019">
+        <txtName>Salvenbahn II 8 EUB</txtName>
+      </OgrUid>
+      <geoLat>47.456293100076N</geoLat>
+      <geoLong>12.1859983936294E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019019.1">
+      <OgrUid dbUid="5019019">
+        <txtName>Salvenbahn II 8 EUB</txtName>
+      </OgrUid>
+      <geoLat>47.4649247071622N</geoLat>
+      <geoLong>12.2031183158901E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019020">
+      <txtName>Salvenmoos 10EUB</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019020.0">
+      <OgrUid dbUid="5019020">
+        <txtName>Salvenmoos 10EUB</txtName>
+      </OgrUid>
+      <geoLat>47.4802442553009N</geoLat>
+      <geoLong>12.1923358065249E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019020.1">
+      <OgrUid dbUid="5019020">
+        <txtName>Salvenmoos 10EUB</txtName>
+      </OgrUid>
+      <geoLat>47.4837697580049N</geoLat>
+      <geoLong>12.1942093814566E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019021">
+      <txtName>Salzburg - Stadt / A1 288,962 Stadtw. 30KV UW Hallwang - UW Hagenau M31 M32</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019021.0">
+      <OgrUid dbUid="5019021">
+        <txtName>Salzburg - Stadt / A1 288,962 Stadtw. 30KV UW Hallwang - UW Hagenau M31 M32</txtName>
+      </OgrUid>
+      <geoLat>47.8313888898126N</geoLat>
+      <geoLong>13.0494444444447E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019021.1">
+      <OgrUid dbUid="5019021">
+        <txtName>Salzburg - Stadt / A1 288,962 Stadtw. 30KV UW Hallwang - UW Hagenau M31 M32</txtName>
+      </OgrUid>
+      <geoLat>47.8300000009238N</geoLat>
+      <geoLong>13.0513888888891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019022">
+      <txtName>SANDECK</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019022.0">
+      <OgrUid dbUid="5019022">
+        <txtName>SANDECK</txtName>
+      </OgrUid>
+      <geoLat>47.2230600009313N</geoLat>
+      <geoLong>9.85555999999986E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019022.1">
+      <OgrUid dbUid="5019022">
+        <txtName>SANDECK</txtName>
+      </OgrUid>
+      <geoLat>47.2241700009313N</geoLat>
+      <geoLong>9.85638999999986E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019023">
+      <txtName>Sassgalun 6 CLF</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019023.0">
+      <OgrUid dbUid="5019023">
+        <txtName>Sassgalun 6 CLF</txtName>
+      </OgrUid>
+      <geoLat>46.9745715147716N</geoLat>
+      <geoLong>10.3111482011527E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019023.1">
+      <OgrUid dbUid="5019023">
+        <txtName>Sassgalun 6 CLF</txtName>
+      </OgrUid>
+      <geoLat>46.9720687453975N</geoLat>
+      <geoLong>10.3083277904512E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019024">
+      <txtName>Sattel</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019024.0">
+      <OgrUid dbUid="5019024">
+        <txtName>Sattel</txtName>
+      </OgrUid>
+      <geoLat>46.8537634841845N</geoLat>
+      <geoLong>11.0200761531411E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019024.1">
+      <OgrUid dbUid="5019024">
+        <txtName>Sattel</txtName>
+      </OgrUid>
+      <geoLat>46.8505606266072N</geoLat>
+      <geoLong>11.0220334472933E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019024.2">
+      <OgrUid dbUid="5019024">
+        <txtName>Sattel</txtName>
+      </OgrUid>
+      <geoLat>46.850686091887N</geoLat>
+      <geoLong>11.0226998442816E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019024.3">
+      <OgrUid dbUid="5019024">
+        <txtName>Sattel</txtName>
+      </OgrUid>
+      <geoLat>46.8537634841845N</geoLat>
+      <geoLong>11.0200761531411E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019025">
+      <txtName>SATTEL</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019025.0">
+      <OgrUid dbUid="5019025">
+        <txtName>SATTEL</txtName>
+      </OgrUid>
+      <geoLat>47.1088900009317N</geoLat>
+      <geoLong>9.98499999999984E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019025.1">
+      <OgrUid dbUid="5019025">
+        <txtName>SATTEL</txtName>
+      </OgrUid>
+      <geoLat>47.1083300009317N</geoLat>
+      <geoLong>9.99332999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019026">
+      <txtName>SATTELALPE</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019026.0">
+      <OgrUid dbUid="5019026">
+        <txtName>SATTELALPE</txtName>
+      </OgrUid>
+      <geoLat>47.1733300009315N</geoLat>
+      <geoLong>9.6374999999999E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019026.1">
+      <OgrUid dbUid="5019026">
+        <txtName>SATTELALPE</txtName>
+      </OgrUid>
+      <geoLat>47.1725000009315N</geoLat>
+      <geoLong>9.6338899999999E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019027">
+      <txtName>Sattelbahn 4 SBK</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019027.0">
+      <OgrUid dbUid="5019027">
+        <txtName>Sattelbahn 4 SBK</txtName>
+      </OgrUid>
+      <geoLat>47.0623413835195N</geoLat>
+      <geoLong>10.5771413262375E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019027.1">
+      <OgrUid dbUid="5019027">
+        <txtName>Sattelbahn 4 SBK</txtName>
+      </OgrUid>
+      <geoLat>47.0578528932042N</geoLat>
+      <geoLong>10.5970764192696E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019028">
+      <txtName>Sattelkopf</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019028.0">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0637287146803N</geoLat>
+      <geoLong>10.5752962348255E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.1">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0701596841496N</geoLat>
+      <geoLong>10.5777508871851E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.2">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.072263207085N</geoLat>
+      <geoLong>10.5812811347642E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.3">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0726304279366N</geoLat>
+      <geoLong>10.5824972806106E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.4">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0742371522165N</geoLat>
+      <geoLong>10.5847371449148E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>4</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.5">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0746509061239N</geoLat>
+      <geoLong>10.5854746475607E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>5</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.6">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0743342338931N</geoLat>
+      <geoLong>10.582796457308E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>6</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.7">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0718276073753N</geoLat>
+      <geoLong>10.579063397342E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>7</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.8">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0713659915936N</geoLat>
+      <geoLong>10.5775833723186E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>8</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.9">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0707604978981N</geoLat>
+      <geoLong>10.5769618575918E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>9</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.10">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0685371298823N</geoLat>
+      <geoLong>10.5758254273518E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>10</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.11">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0669990465115N</geoLat>
+      <geoLong>10.5748831603618E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>11</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.12">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0652313675551N</geoLat>
+      <geoLong>10.5730292450034E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>12</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.13">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0648632418732N</geoLat>
+      <geoLong>10.5728672806964E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>13</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.14">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0638676756761N</geoLat>
+      <geoLong>10.574662346539E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>14</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019028.15">
+      <OgrUid dbUid="5019028">
+        <txtName>Sattelkopf</txtName>
+      </OgrUid>
+      <geoLat>47.0637287146803N</geoLat>
+      <geoLong>10.5752962348255E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>15</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019029">
+      <txtName>SATTELKOPF</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019029.0">
+      <OgrUid dbUid="5019029">
+        <txtName>SATTELKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.1094400009316N</geoLat>
+      <geoLong>10.0561099999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019029.1">
+      <OgrUid dbUid="5019029">
+        <txtName>SATTELKOPF</txtName>
+      </OgrUid>
+      <geoLat>47.1105600009316N</geoLat>
+      <geoLong>10.0552799999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019030">
+      <txtName>Sattledt / Autobahnquerung A1 bei km 192,28</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019030.0">
+      <OgrUid dbUid="5019030">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 192,28</txtName>
+      </OgrUid>
+      <geoLat>48.0926591439275N</geoLat>
+      <geoLong>14.0715458171001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019030.1">
+      <OgrUid dbUid="5019030">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 192,28</txtName>
+      </OgrUid>
+      <geoLat>48.0914545989275N</geoLat>
+      <geoLong>14.0719488557001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019031">
+      <txtName>Sattledt / Autobahnquerung A1 bei km 193,050</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019031.0">
+      <OgrUid dbUid="5019031">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,050</txtName>
+      </OgrUid>
+      <geoLat>48.0866072601275N</geoLat>
+      <geoLong>14.0633739722001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019031.1">
+      <OgrUid dbUid="5019031">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,050</txtName>
+      </OgrUid>
+      <geoLat>48.0864366693275N</geoLat>
+      <geoLong>14.0677753911001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019032">
+      <txtName>Sattledt / Autobahnquerung A1 bei km 193,33</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019032.0">
+      <OgrUid dbUid="5019032">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,33</txtName>
+      </OgrUid>
+      <geoLat>48.0846785563275N</geoLat>
+      <geoLong>14.0617289532001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019032.1">
+      <OgrUid dbUid="5019032">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,33</txtName>
+      </OgrUid>
+      <geoLat>48.0847137315275N</geoLat>
+      <geoLong>14.0638947062001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019033">
+      <txtName>Sattledt / Autobahnquerung A1 bei km 193,480</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019033.0">
+      <OgrUid dbUid="5019033">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,480</txtName>
+      </OgrUid>
+      <geoLat>48.0837760138275N</geoLat>
+      <geoLong>14.0595344305001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019033.1">
+      <OgrUid dbUid="5019033">
+        <txtName>Sattledt / Autobahnquerung A1 bei km 193,480</txtName>
+      </OgrUid>
+      <geoLat>48.0840123028275N</geoLat>
+      <geoLong>14.0635861996001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019034">
+      <txtName>Sattledt / Autobahnquerung A9 bei km 1,40</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019034.0">
+      <OgrUid dbUid="5019034">
+        <txtName>Sattledt / Autobahnquerung A9 bei km 1,40</txtName>
+      </OgrUid>
+      <geoLat>48.0533516740276N</geoLat>
+      <geoLong>14.0501337713001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019034.1">
+      <OgrUid dbUid="5019034">
+        <txtName>Sattledt / Autobahnquerung A9 bei km 1,40</txtName>
+      </OgrUid>
+      <geoLat>48.0538589216277N</geoLat>
+      <geoLong>14.0516100127001E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019035">
+      <txtName>Säulinghaus</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019035.0">
+      <OgrUid dbUid="5019035">
+        <txtName>Säulinghaus</txtName>
+      </OgrUid>
+      <geoLat>47.5308004839033N</geoLat>
+      <geoLong>10.7398234577653E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019035.1">
+      <OgrUid dbUid="5019035">
+        <txtName>Säulinghaus</txtName>
+      </OgrUid>
+      <geoLat>47.5343650006397N</geoLat>
+      <geoLong>10.7491845763166E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019036">
+      <txtName>Saustein 1</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019036.0">
+      <OgrUid dbUid="5019036">
+        <txtName>Saustein 1</txtName>
+      </OgrUid>
+      <geoLat>47.1256800001525N</geoLat>
+      <geoLong>11.8125609156275E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019036.1">
+      <OgrUid dbUid="5019036">
+        <txtName>Saustein 1</txtName>
+      </OgrUid>
+      <geoLat>47.128413283941N</geoLat>
+      <geoLong>11.8127816038445E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019037">
+      <txtName>Saustein 2</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019037.0">
+      <OgrUid dbUid="5019037">
+        <txtName>Saustein 2</txtName>
+      </OgrUid>
+      <geoLat>47.1262266314065N</geoLat>
+      <geoLong>11.8106072208962E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019037.1">
+      <OgrUid dbUid="5019037">
+        <txtName>Saustein 2</txtName>
+      </OgrUid>
+      <geoLat>47.1252127864459N</geoLat>
+      <geoLong>11.8124982142395E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019038">
+      <txtName>Saustein 3</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019038.0">
+      <OgrUid dbUid="5019038">
+        <txtName>Saustein 3</txtName>
+      </OgrUid>
+      <geoLat>47.1252127864459N</geoLat>
+      <geoLong>11.8124982142395E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019038.1">
+      <OgrUid dbUid="5019038">
+        <txtName>Saustein 3</txtName>
+      </OgrUid>
+      <geoLat>47.1257127377955N</geoLat>
+      <geoLong>11.8083934968431E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019039">
+      <txtName>Saustein 4</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019039.0">
+      <OgrUid dbUid="5019039">
+        <txtName>Saustein 4</txtName>
+      </OgrUid>
+      <geoLat>47.1249889871018N</geoLat>
+      <geoLong>11.8085724479683E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019039.1">
+      <OgrUid dbUid="5019039">
+        <txtName>Saustein 4</txtName>
+      </OgrUid>
+      <geoLat>47.1240512983737N</geoLat>
+      <geoLong>11.8103902719636E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019040">
+      <txtName>Saustein 5</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019040.0">
+      <OgrUid dbUid="5019040">
+        <txtName>Saustein 5</txtName>
+      </OgrUid>
+      <geoLat>47.1240512983737N</geoLat>
+      <geoLong>11.8103902719636E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019040.1">
+      <OgrUid dbUid="5019040">
+        <txtName>Saustein 5</txtName>
+      </OgrUid>
+      <geoLat>47.1252926048443N</geoLat>
+      <geoLong>11.8098697250233E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019041">
+      <txtName>Saxeralpe</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019041.0">
+      <OgrUid dbUid="5019041">
+        <txtName>Saxeralpe</txtName>
+      </OgrUid>
+      <geoLat>47.2246892635196N</geoLat>
+      <geoLong>10.4471425730444E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019041.1">
+      <OgrUid dbUid="5019041">
+        <txtName>Saxeralpe</txtName>
+      </OgrUid>
+      <geoLat>47.2313798564323N</geoLat>
+      <geoLong>10.4533305205898E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019042">
+      <txtName>SB 6 EUB Ellmi`s 6er</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019042.0">
+      <OgrUid dbUid="5019042">
+        <txtName>SB 6 EUB Ellmi`s 6er</txtName>
+      </OgrUid>
+      <geoLat>47.4937924764601N</geoLat>
+      <geoLong>12.2724473989568E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019042.1">
+      <OgrUid dbUid="5019042">
+        <txtName>SB 6 EUB Ellmi`s 6er</txtName>
+      </OgrUid>
+      <geoLat>47.5021572338301N</geoLat>
+      <geoLong>12.2620024621442E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019043">
+      <txtName>SB 6SB Silleralm</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019043.0">
+      <OgrUid dbUid="5019043">
+        <txtName>SB 6SB Silleralm</txtName>
+      </OgrUid>
+      <geoLat>47.4746269203919N</geoLat>
+      <geoLong>12.2183995815751E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019043.1">
+      <OgrUid dbUid="5019043">
+        <txtName>SB 6SB Silleralm</txtName>
+      </OgrUid>
+      <geoLat>47.4693655395091N</geoLat>
+      <geoLong>12.2095889343629E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019044">
+      <txtName>SB 8SK-v/10UB Kombibahn Penken</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019044.0">
+      <OgrUid dbUid="5019044">
+        <txtName>SB 8SK-v/10UB Kombibahn Penken</txtName>
+      </OgrUid>
+      <geoLat>47.1756769970359N</geoLat>
+      <geoLong>11.8273898834315E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019044.1">
+      <OgrUid dbUid="5019044">
+        <txtName>SB 8SK-v/10UB Kombibahn Penken</txtName>
+      </OgrUid>
+      <geoLat>47.1759476115586N</geoLat>
+      <geoLong>11.8160815041433E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>30</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019045">
+      <txtName>Schöneben</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019045.0">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.167383588955N</geoLat>
+      <geoLong>11.7351576737881E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.1">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.1669900885217N</geoLat>
+      <geoLong>11.7353392832926E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.2">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.1664102432518N</geoLat>
+      <geoLong>11.7356068965729E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.3">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.1659553777351N</geoLat>
+      <geoLong>11.7358328157939E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.4">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.1646262057852N</geoLat>
+      <geoLong>11.73645029332E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>4</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.5">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.1638043137831N</geoLat>
+      <geoLong>11.7368402014424E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>5</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5019045.6">
+      <OgrUid dbUid="5019045">
+        <txtName>Schöneben</txtName>
+      </OgrUid>
+      <geoLat>47.163321842751N</geoLat>
+      <geoLong>11.7370777369873E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>6</xt_linkedToGroupInternalId>
+    <xt_linkType>cable</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019046">
+      <txtName>2472 Prellenkirchen (Windpark Prellenkirchen 2)</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019046.0">
+      <OgrUid dbUid="5019046">
+        <txtName>2472 Prellenkirchen (Windpark Prellenkirchen 2)</txtName>
+      </OgrUid>
+      <geoLat>48.0602777787008N</geoLat>
+      <geoLong>16.9280555555553E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019047">
+      <txtName>2472 Prellenkirchen (Windpark Prellenkirchen 3)</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019047.0">
+      <OgrUid dbUid="5019047">
+        <txtName>2472 Prellenkirchen (Windpark Prellenkirchen 3)</txtName>
+      </OgrUid>
+      <geoLat>48.0705555564776N</geoLat>
+      <geoLong>16.9830555555553E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019048">
+      <txtName>2472 Prellenkirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019048.0">
+      <OgrUid dbUid="5019048">
+        <txtName>2472 Prellenkirchen</txtName>
+      </OgrUid>
+      <geoLat>48.0652777787006N</geoLat>
+      <geoLong>16.9383333333331E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019049">
+      <txtName>2472 Prellenkirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019049.0">
+      <OgrUid dbUid="5019049">
+        <txtName>2472 Prellenkirchen</txtName>
+      </OgrUid>
+      <geoLat>48.0666666675895N</geoLat>
+      <geoLong>16.9383333333331E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019050">
+      <txtName>2472 Prellenkrichen (Windpark Prellenkirchen 3)</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019050.0">
+      <OgrUid dbUid="5019050">
+        <txtName>2472 Prellenkrichen (Windpark Prellenkirchen 3)</txtName>
+      </OgrUid>
+      <geoLat>48.0661111120331N</geoLat>
+      <geoLong>16.9894444444442E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019051">
+      <txtName>2714 D Ligist</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019051.0">
+      <OgrUid dbUid="5019051">
+        <txtName>2714 D Ligist</txtName>
+      </OgrUid>
+      <geoLat>47.0022222231544N</geoLat>
+      <geoLong>15.2216666666666E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019052">
+      <txtName>2763 Muggendorf</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019052.0">
+      <OgrUid dbUid="5019052">
+        <txtName>2763 Muggendorf</txtName>
+      </OgrUid>
+      <geoLat>47.9319444453727N</geoLat>
+      <geoLong>15.9908333333332E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019053">
+      <txtName>2871 Zoebern</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019053.0">
+      <OgrUid dbUid="5019053">
+        <txtName>2871 Zoebern</txtName>
+      </OgrUid>
+      <geoLat>47.5272222231522N</geoLat>
+      <geoLong>16.117222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019054">
+      <txtName>3002 Purkersdorf</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019054.0">
+      <OgrUid dbUid="5019054">
+        <txtName>3002 Purkersdorf</txtName>
+      </OgrUid>
+      <geoLat>48.1736111120381N</geoLat>
+      <geoLong>16.1366666666664E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019055">
+      <txtName>3021 Pressbaum</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019055.0">
+      <OgrUid dbUid="5019055">
+        <txtName>3021 Pressbaum</txtName>
+      </OgrUid>
+      <geoLat>48.1627777787049N</geoLat>
+      <geoLong>16.002222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019056">
+      <txtName>3033 Altlengbach</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019056.0">
+      <OgrUid dbUid="5019056">
+        <txtName>3033 Altlengbach</txtName>
+      </OgrUid>
+      <geoLat>48.1491666675939N</geoLat>
+      <geoLong>15.974722222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019057">
+      <txtName>3072 Kasten</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019057.0">
+      <OgrUid dbUid="5019057">
+        <txtName>3072 Kasten</txtName>
+      </OgrUid>
+      <geoLat>48.1316666675941N</geoLat>
+      <geoLong>15.7780555555554E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019058">
+      <txtName>3170 Hainfeld</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019058.0">
+      <OgrUid dbUid="5019058">
+        <txtName>3170 Hainfeld</txtName>
+      </OgrUid>
+      <geoLat>48.0158333342613N</geoLat>
+      <geoLong>15.7883333333332E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019059">
+      <txtName>3195 Gscheid</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019059.0">
+      <OgrUid dbUid="5019059">
+        <txtName>3195 Gscheid</txtName>
+      </OgrUid>
+      <geoLat>47.8272222231511N</geoLat>
+      <geoLong>15.4677777777777E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019060">
+      <txtName>3202 Gruenau</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019060.0">
+      <OgrUid dbUid="5019060">
+        <txtName>3202 Gruenau</txtName>
+      </OgrUid>
+      <geoLat>48.0811111120388N</geoLat>
+      <geoLong>15.5088888888888E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019061">
+      <txtName>3312 Oed</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019061.0">
+      <OgrUid dbUid="5019061">
+        <txtName>3312 Oed</txtName>
+      </OgrUid>
+      <geoLat>48.1200000009275N</geoLat>
+      <geoLong>14.7455555555556E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019062">
+      <txtName>3314 Strengberg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019062.0">
+      <OgrUid dbUid="5019062">
+        <txtName>3314 Strengberg</txtName>
+      </OgrUid>
+      <geoLat>48.1158333342608N</geoLat>
+      <geoLong>14.668888888889E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019063">
+      <txtName>3341 Ybbsitz/Knieberg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019063.0">
+      <OgrUid dbUid="5019063">
+        <txtName>3341 Ybbsitz/Knieberg</txtName>
+      </OgrUid>
+      <geoLat>48.1427777787046N</geoLat>
+      <geoLong>16.334722222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019064">
+      <txtName>3343 Hollenstein a.d.Ybbs</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019064.0">
+      <OgrUid dbUid="5019064">
+        <txtName>3343 Hollenstein a.d.Ybbs</txtName>
+      </OgrUid>
+      <geoLat>47.7952777787068N</geoLat>
+      <geoLong>14.7891666666667E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019065">
+      <txtName>3372 Blindenmarkt</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019065.0">
+      <OgrUid dbUid="5019065">
+        <txtName>3372 Blindenmarkt</txtName>
+      </OgrUid>
+      <geoLat>48.1830555564827N</geoLat>
+      <geoLong>14.9997222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019066">
+      <txtName>3372 Blindenmarkt</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019066.0">
+      <OgrUid dbUid="5019066">
+        <txtName>3372 Blindenmarkt</txtName>
+      </OgrUid>
+      <geoLat>48.1830555564827N</geoLat>
+      <geoLong>14.9997222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019067">
+      <txtName>3385 Markersdorf-Haindorf</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019067.0">
+      <OgrUid dbUid="5019067">
+        <txtName>3385 Markersdorf-Haindorf</txtName>
+      </OgrUid>
+      <geoLat>48.1694444453717N</geoLat>
+      <geoLong>15.4641666666666E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019068">
+      <txtName>3400 Klosterneuburg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019068.0">
+      <OgrUid dbUid="5019068">
+        <txtName>3400 Klosterneuburg</txtName>
+      </OgrUid>
+      <geoLat>48.2755555564819N</geoLat>
+      <geoLong>16.2452777777775E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019069">
+      <txtName>3435 Zwentendorf Kraftwerk Duernrohr mit zwei Kesselhaeusern und einem Schornstein</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019069.0">
+      <OgrUid dbUid="5019069">
+        <txtName>3435 Zwentendorf Kraftwerk Duernrohr mit zwei Kesselhaeusern und einem Schornstein</txtName>
+      </OgrUid>
+      <geoLat>48.326666667593N</geoLat>
+      <geoLong>15.9199999999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019070">
+      <txtName>3443 Sieghartskirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019070.0">
+      <OgrUid dbUid="5019070">
+        <txtName>3443 Sieghartskirchen</txtName>
+      </OgrUid>
+      <geoLat>48.24583333426N</geoLat>
+      <geoLong>16.0924999999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019071">
+      <txtName>3443 Sieghartskirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019071.0">
+      <OgrUid dbUid="5019071">
+        <txtName>3443 Sieghartskirchen</txtName>
+      </OgrUid>
+      <geoLat>48.2527777787044N</geoLat>
+      <geoLong>16.1013888888887E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019072">
+      <txtName>3613 Albrechtsberg an der Grossen Krems</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019072.0">
+      <OgrUid dbUid="5019072">
+        <txtName>3613 Albrechtsberg an der Grossen Krems</txtName>
+      </OgrUid>
+      <geoLat>48.4575000009258N</geoLat>
+      <geoLong>15.351111111111E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019073">
+      <txtName>3631 Kirchschlag</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019073.0">
+      <OgrUid dbUid="5019073">
+        <txtName>3631 Kirchschlag</txtName>
+      </OgrUid>
+      <geoLat>48.4091666675927N</geoLat>
+      <geoLong>15.235E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019074">
+      <txtName>3665 Gmuend</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019074.0">
+      <OgrUid dbUid="5019074">
+        <txtName>3665 Gmuend</txtName>
+      </OgrUid>
+      <geoLat>48.3555555564818N</geoLat>
+      <geoLong>15.1072222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019075">
+      <txtName>3684 St.Oswald</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019075.0">
+      <OgrUid dbUid="5019075">
+        <txtName>3684 St.Oswald</txtName>
+      </OgrUid>
+      <geoLat>48.2447222231491N</geoLat>
+      <geoLong>15.0108333333333E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019076">
+      <txtName>3763 Japons</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019076.0">
+      <OgrUid dbUid="5019076">
+        <txtName>3763 Japons</txtName>
+      </OgrUid>
+      <geoLat>48.7994444453683N</geoLat>
+      <geoLong>15.5230555555555E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019077">
+      <txtName>3800 Goepfritz a.d.Wild</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019077.0">
+      <OgrUid dbUid="5019077">
+        <txtName>3800 Goepfritz a.d.Wild</txtName>
+      </OgrUid>
+      <geoLat>48.7600000009241N</geoLat>
+      <geoLong>15.3533333333333E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019078">
+      <txtName>3820 Raabs a.d.Thaya</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019078.0">
+      <OgrUid dbUid="5019078">
+        <txtName>3820 Raabs a.d.Thaya</txtName>
+      </OgrUid>
+      <geoLat>48.8386111120348N</geoLat>
+      <geoLong>15.5383333333332E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019079">
+      <txtName>3911 Rappottenstein</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019079.0">
+      <OgrUid dbUid="5019079">
+        <txtName>3911 Rappottenstein</txtName>
+      </OgrUid>
+      <geoLat>48.5072222231477N</geoLat>
+      <geoLong>15.0522222222222E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019080">
+      <txtName>3970 Harbach</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019080.0">
+      <OgrUid dbUid="5019080">
+        <txtName>3970 Harbach</txtName>
+      </OgrUid>
+      <geoLat>48.6738888898135N</geoLat>
+      <geoLong>14.7805555555556E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019081">
+      <txtName>6016 A Mattelsberg Grossklein</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019081.0">
+      <OgrUid dbUid="5019081">
+        <txtName>6016 A Mattelsberg Grossklein</txtName>
+      </OgrUid>
+      <geoLat>46.747500000933N</geoLat>
+      <geoLong>15.4486111111111E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019082">
+      <txtName>6169 A Riegersburg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019082.0">
+      <OgrUid dbUid="5019082">
+        <txtName>6169 A Riegersburg</txtName>
+      </OgrUid>
+      <geoLat>47.0194444453765N</geoLat>
+      <geoLong>15.9302777777776E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019083">
+      <txtName>6192 B Wagenhals</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019083.0">
+      <OgrUid dbUid="5019083">
+        <txtName>6192 B Wagenhals</txtName>
+      </OgrUid>
+      <geoLat>47.1855555564869N</geoLat>
+      <geoLong>16.0316666666665E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019084">
+      <txtName>6217 A Ries</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019084.0">
+      <OgrUid dbUid="5019084">
+        <txtName>6217 A Ries</txtName>
+      </OgrUid>
+      <geoLat>47.0819444453763N</geoLat>
+      <geoLong>15.4799999999999E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019085">
+      <txtName>6243 A</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019085.0">
+      <OgrUid dbUid="5019085">
+        <txtName>6243 A</txtName>
+      </OgrUid>
+      <geoLat>47.4625000009304N</geoLat>
+      <geoLong>15.5002777777777E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019086">
+      <txtName>6252 B St. Lambrecht</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019086.0">
+      <OgrUid dbUid="5019086">
+        <txtName>6252 B St. Lambrecht</txtName>
+      </OgrUid>
+      <geoLat>47.0802777787096N</geoLat>
+      <geoLong>14.2847222222223E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019087">
+      <txtName>6255 B</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019087.0">
+      <OgrUid dbUid="5019087">
+        <txtName>6255 B</txtName>
+      </OgrUid>
+      <geoLat>47.4641666675971N</geoLat>
+      <geoLong>15.1513888888889E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019088">
+      <txtName>6256 A</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019088.0">
+      <OgrUid dbUid="5019088">
+        <txtName>6256 A</txtName>
+      </OgrUid>
+      <geoLat>47.2508333342646N</geoLat>
+      <geoLong>14.5002777777779E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019089">
+      <txtName>6257 A Landl</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019089.0">
+      <OgrUid dbUid="5019089">
+        <txtName>6257 A Landl</txtName>
+      </OgrUid>
+      <geoLat>47.6572222231518N</geoLat>
+      <geoLong>14.7830555555556E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019090">
+      <txtName>6261 A Hirschegg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019090.0">
+      <OgrUid dbUid="5019090">
+        <txtName>6261 A Hirschegg</txtName>
+      </OgrUid>
+      <geoLat>47.0222222231543N</geoLat>
+      <geoLong>14.9508333333334E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019091">
+      <txtName>6274 A Planitzen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019091.0">
+      <OgrUid dbUid="5019091">
+        <txtName>6274 A Planitzen</txtName>
+      </OgrUid>
+      <geoLat>47.1455555564871N</geoLat>
+      <geoLong>14.1416666666668E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019092">
+      <txtName>Feldkirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019092.0">
+      <OgrUid dbUid="5019092">
+        <txtName>Feldkirchen</txtName>
+      </OgrUid>
+      <geoLat>46.8813888888887N</geoLat>
+      <geoLong>13.8761111111109E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019093">
+      <txtName>Feldkirchen</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019093.0">
+      <OgrUid dbUid="5019093">
+        <txtName>Feldkirchen</txtName>
+      </OgrUid>
+      <geoLat>46.7988888888889N</geoLat>
+      <geoLong>14.0869444444443E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019094">
+      <txtName>Loipersdorf bei Fürstenfeld</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019094.0">
+      <OgrUid dbUid="5019094">
+        <txtName>Loipersdorf bei Fürstenfeld</txtName>
+      </OgrUid>
+      <geoLat>46.9882777390251N</geoLat>
+      <geoLong>16.1135833783334E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019095">
+      <txtName>Loipersdorf, Max Mobil</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019095.0">
+      <OgrUid dbUid="5019095">
+        <txtName>Loipersdorf, Max Mobil</txtName>
+      </OgrUid>
+      <geoLat>47.3944400009305N</geoLat>
+      <geoLong>16.0833299999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019096">
+      <txtName>Mautern</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019096.0">
+      <OgrUid dbUid="5019096">
+        <txtName>Mautern</txtName>
+      </OgrUid>
+      <geoLat>47.4048333724399N</geoLat>
+      <geoLong>14.8187777783262E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019097">
+      <txtName>Nussdorf am Haunsberg/B156 Pabing Nussdorf</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019097.0">
+      <OgrUid dbUid="5019097">
+        <txtName>Nussdorf am Haunsberg/B156 Pabing Nussdorf</txtName>
+      </OgrUid>
+      <geoLat>47.9341666675884N</geoLat>
+      <geoLong>12.9638888888891E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019098">
+      <txtName>Nussdorf am Haunsberg/Furwag Mast Nr. 5513 b</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019098.0">
+      <OgrUid dbUid="5019098">
+        <txtName>Nussdorf am Haunsberg/Furwag Mast Nr. 5513 b</txtName>
+      </OgrUid>
+      <geoLat>47.9188888898109N</geoLat>
+      <geoLong>12.9733333333336E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019099">
+      <txtName>Nussdorf am Haunsberg/Nussdorf Weitwoerth</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019099.0">
+      <OgrUid dbUid="5019099">
+        <txtName>Nussdorf am Haunsberg/Nussdorf Weitwoerth</txtName>
+      </OgrUid>
+      <geoLat>47.9247222231441N</geoLat>
+      <geoLong>12.9691666666669E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019100">
+      <txtName>O284-Schenkenfelden</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019100.0">
+      <OgrUid dbUid="5019100">
+        <txtName>O284-Schenkenfelden</txtName>
+      </OgrUid>
+      <geoLat>48.4905N</geoLat>
+      <geoLong>14.351389E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019101">
+      <txtName>Obeaich</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019101.0">
+      <OgrUid dbUid="5019101">
+        <txtName>Obeaich</txtName>
+      </OgrUid>
+      <geoLat>47.4163889296556N</geoLat>
+      <geoLong>15.2038888671442E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019102">
+      <txtName>STWZ 102 Heilbrunn</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019102.0">
+      <OgrUid dbUid="5019102">
+        <txtName>STWZ 102 Heilbrunn</txtName>
+      </OgrUid>
+      <geoLat>47.3350000009309N</geoLat>
+      <geoLong>15.6088888888888E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019103">
+      <txtName>STWZ 104 Sallegg</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019103.0">
+      <OgrUid dbUid="5019103">
+        <txtName>STWZ 104 Sallegg</txtName>
+      </OgrUid>
+      <geoLat>47.3366666675976N</geoLat>
+      <geoLong>15.6649999999999E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019104">
+      <txtName>Villach Land</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019104.0">
+      <OgrUid dbUid="5019104">
+        <txtName>Villach Land</txtName>
+      </OgrUid>
+      <geoLat>46.6255555555551N</geoLat>
+      <geoLong>13.6680555555552E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019105">
+      <txtName>Villach Land</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019105.0">
+      <OgrUid dbUid="5019105">
+        <txtName>Villach Land</txtName>
+      </OgrUid>
+      <geoLat>46.545N</geoLat>
+      <geoLong>14.0197222222221E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019106">
+      <txtName>Villach Land</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019106.0">
+      <OgrUid dbUid="5019106">
+        <txtName>Villach Land</txtName>
+      </OgrUid>
+      <geoLat>46.6763888888882N</geoLat>
+      <geoLong>13.5727777777772E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019107">
+      <txtName>Villach Land</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019107.0">
+      <OgrUid dbUid="5019107">
+        <txtName>Villach Land</txtName>
+      </OgrUid>
+      <geoLat>46.5644444444441N</geoLat>
+      <geoLong>13.7413888888886E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019108">
+      <txtName>Villach Land</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019108.0">
+      <OgrUid dbUid="5019108">
+        <txtName>Villach Land</txtName>
+      </OgrUid>
+      <geoLat>46.6244444444443N</geoLat>
+      <geoLong>13.9583333333332E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019109">
+      <txtName>Villach Stadt</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019109.0">
+      <OgrUid dbUid="5019109">
+        <txtName>Villach Stadt</txtName>
+      </OgrUid>
+      <geoLat>46.6216666666666N</geoLat>
+      <geoLong>13.9055555555554E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019110">
+      <txtName>Wals-Siezenheim/Walserberg S046</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019110.0">
+      <OgrUid dbUid="5019110">
+        <txtName>Wals-Siezenheim/Walserberg S046</txtName>
+      </OgrUid>
+      <geoLat>47.7683333342555N</geoLat>
+      <geoLong>12.9441666666669E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5019111">
+      <txtName>WDB Waldbach Steinberg bei Wenigzell</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5019111.0">
+      <OgrUid dbUid="5019111">
+        <txtName>WDB Waldbach Steinberg bei Wenigzell</txtName>
+      </OgrUid>
+      <geoLat>47.4497222231526N</geoLat>
+      <geoLong>15.8188888888888E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
+    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
+    <xt_linkType>GROUP</xt_linkType>
+    <xt_lockForImport>False</xt_lockForImport>
+  </Obs>
+</OFMX-Snapshot>

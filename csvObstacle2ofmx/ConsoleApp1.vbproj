@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>obstacleCsv2ofmx</AssemblyName>
+  </PropertyGroup>
+
+</Project>
