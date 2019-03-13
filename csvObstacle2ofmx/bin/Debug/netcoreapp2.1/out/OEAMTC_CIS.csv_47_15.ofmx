@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="13.03.2019 12:12:08T13.03.2019 12:12:08" origin="csvObstacle2ofmx" created="13.03.2019 12:12:08T13.03.2019 12:12:08" namespace="210444d1-4576-e92d-0983-4669182a8c04" boundingbox="47;15;1;1;">
+  <Ogr>
+    <OgrUid dbUid="5022205">
+      <txtName>Sendemast Krieglach</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5022205.0">
+      <OgrUid dbUid="5022205">
+        <txtName>Sendemast Krieglach</txtName>
+      </OgrUid>
+      <geoLat>15.5358333333333N</geoLat>
+      <geoLong>47.5741666666667E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>150</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
+  </Obs>
+</OFMX-Snapshot>

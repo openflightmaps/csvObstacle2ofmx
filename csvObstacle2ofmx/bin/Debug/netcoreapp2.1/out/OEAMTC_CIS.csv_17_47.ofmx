@@ -1,30 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="09.03.2019 17:46:44T09.03.2019 17:46:44" origin="csvObstacle2ofmx" created="09.03.2019 17:46:44T09.03.2019 17:46:44" namespace="210444d1-4576-e92d-0983-4669182a8c04">
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="13.03.2019 12:12:08T13.03.2019 12:12:08" origin="csvObstacle2ofmx" created="13.03.2019 12:12:08T13.03.2019 12:12:08" namespace="210444d1-4576-e92d-0983-4669182a8c04" boundingbox="17;47;1;1;">
   <Ogr>
-    <OgrUid dbUid="5020494">
-      <txtName>Oberndorf bei Salzburg/Mobilfunkstation Oberndorf  / Lindach S034</txtName>
+    <OgrUid dbUid="5022200">
+      <txtName>Andau</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
     <origin>OEAMTC CIS DB</origin>
   </Ogr>
   <Obs>
-    <ObsUid dbUid="5020494.0">
-      <OgrUid dbUid="5020494">
-        <txtName>Oberndorf bei Salzburg/Mobilfunkstation Oberndorf  / Lindach S034</txtName>
+    <ObsUid dbUid="5022200.0">
+      <OgrUid dbUid="5022200">
+        <txtName>Andau</txtName>
       </OgrUid>
-      <geoLat>47.9397222231437N</geoLat>
-      <geoLong>12.9500000000003E</geoLong>
+      <geoLat>47.800472N</geoLat>
+      <geoLong>17.020473E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>100</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>GROUP</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5022201">
+      <txtName>Windpark Halbturn</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5022201.0">
+      <OgrUid dbUid="5022201">
+        <txtName>Windpark Halbturn</txtName>
+      </OgrUid>
+      <geoLat>47.8568360927414N</geoLat>
+      <geoLong>17.0046166544906E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
   </Obs>
 </OFMX-Snapshot>

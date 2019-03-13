@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="09.03.2019 17:46:41T09.03.2019 17:46:41" origin="csvObstacle2ofmx" created="09.03.2019 17:46:41T09.03.2019 17:46:41" namespace="210444d1-4576-e92d-0983-4669182a8c04">
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="13.03.2019 12:12:05T13.03.2019 12:12:05" origin="csvObstacle2ofmx" created="13.03.2019 12:12:05T13.03.2019 12:12:05" namespace="210444d1-4576-e92d-0983-4669182a8c04" boundingbox="12;48;1;1;">
   <Ogr>
-    <OgrUid dbUid="5018314">
-      <txtName>2813 Lichtenegg</txtName>
+    <OgrUid dbUid="5020425">
+      <txtName>Aholming</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
     <origin>OEAMTC CIS DB</origin>
   </Ogr>
   <Obs>
-    <ObsUid dbUid="5018314.0">
-      <OgrUid dbUid="5018314">
-        <txtName>2813 Lichtenegg</txtName>
+    <ObsUid dbUid="5020425.0">
+      <OgrUid dbUid="5020425">
+        <txtName>Aholming</txtName>
       </OgrUid>
-      <geoLat>47.6086111120406N</geoLat>
-      <geoLong>16.2086111111109E</geoLong>
+      <geoLat>48.7307N</geoLat>
+      <geoLong>12.9297E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -22,26 +22,25 @@
     <valElev>0</valElev>
     <valHgt>100</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>GROUP</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
   </Obs>
   <Ogr>
-    <OgrUid dbUid="5018315">
-      <txtName>2822 Foehrenau</txtName>
+    <OgrUid dbUid="5020426">
+      <txtName>Handenberg / Funkmast Adenberg 17 f. d. Ärztefunk u. Bereitschaftsdienst</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
     <origin>OEAMTC CIS DB</origin>
   </Ogr>
   <Obs>
-    <ObsUid dbUid="5018315.0">
-      <OgrUid dbUid="5018315">
-        <txtName>2822 Foehrenau</txtName>
+    <ObsUid dbUid="5020426.0">
+      <OgrUid dbUid="5020426">
+        <txtName>Handenberg / Funkmast Adenberg 17 f. d. Ärztefunk u. Bereitschaftsdienst</txtName>
       </OgrUid>
-      <geoLat>47.7527777787068N</geoLat>
-      <geoLong>16.1188888888887E</geoLong>
+      <geoLat>48.1427959856148N</geoLat>
+      <geoLong>12.9828611819971E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -49,26 +48,17 @@
     <valElev>0</valElev>
     <valHgt>150</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>GROUP</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
   </Obs>
-  <Ogr>
-    <OgrUid dbUid="5018316">
-      <txtName>6111 C Limberg</txtName>
-    </OgrUid>
-    <lateralPrecision>0</lateralPrecision>
-    <verticalPrecision>0</verticalPrecision>
-    <origin>OEAMTC CIS DB</origin>
-  </Ogr>
   <Obs>
-    <ObsUid dbUid="5018316.0">
-      <OgrUid dbUid="5018316">
-        <txtName>6111 C Limberg</txtName>
+    <ObsUid dbUid="5020426.1">
+      <OgrUid dbUid="5020426">
+        <txtName>Handenberg / Funkmast Adenberg 17 f. d. Ärztefunk u. Bereitschaftsdienst</txtName>
       </OgrUid>
-      <geoLat>46.7469444453774N</geoLat>
-      <geoLong>15.2316666666666E</geoLong>
+      <geoLat>48.1424959773147N</geoLat>
+      <geoLong>12.9817613692971E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -76,26 +66,43 @@
     <valElev>0</valElev>
     <valHgt>150</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>GROUP</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
   </Obs>
   <Ogr>
-    <OgrUid dbUid="5018317">
-      <txtName>6141 A Kaibing</txtName>
+    <OgrUid dbUid="5020427">
+      <txtName>St. Pantaleon / Kraftwerk Riedersbach II</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
     <origin>OEAMTC CIS DB</origin>
   </Ogr>
   <Obs>
-    <ObsUid dbUid="5018317.0">
-      <OgrUid dbUid="5018317">
-        <txtName>6141 A Kaibing</txtName>
+    <ObsUid dbUid="5020427.0">
+      <OgrUid dbUid="5020427">
+        <txtName>St. Pantaleon / Kraftwerk Riedersbach II</txtName>
       </OgrUid>
-      <geoLat>47.2050000009314N</geoLat>
-      <geoLong>15.8552777777776E</geoLong>
+      <geoLat>48.0322039155092N</geoLat>
+      <geoLong>12.8439914171958E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>100</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5020427.1">
+      <OgrUid dbUid="5020427">
+        <txtName>St. Pantaleon / Kraftwerk Riedersbach II</txtName>
+      </OgrUid>
+      <geoLat>48.0311039939091N</geoLat>
+      <geoLong>12.8425917200958E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -103,9 +110,8 @@
     <valElev>0</valElev>
     <valHgt>150</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>GROUP</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>GROUP</codeLinkType>
   </Obs>
 </OFMX-Snapshot>

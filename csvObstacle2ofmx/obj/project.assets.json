@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ovord\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectUniqueName": "C:\\Users\\ovord\\source\\repos\\csvObstacle2ofmx2\\csvObstacle2ofmx\\ConsoleApp1.vbproj",
       "projectName": "obstacleCsv2ofmx",
-      "projectPath": "C:\\Users\\ovord\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectPath": "C:\\Users\\ovord\\source\\repos\\csvObstacle2ofmx2\\csvObstacle2ofmx\\ConsoleApp1.vbproj",
       "packagesPath": "C:\\Users\\ovord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ovord\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\ovord\\source\\repos\\csvObstacle2ofmx2\\csvObstacle2ofmx\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

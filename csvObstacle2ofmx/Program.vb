@@ -1,5 +1,7 @@
 Imports System
 Imports System.Reflection
+Imports System.Security.Cryptography
+Imports System.Text
 Imports System.Xml
 
 Module Program
@@ -32,8 +34,8 @@ Module Program
 
     Structure obstacleStruct
         Dim txtDescrType As String
-        Dim xt_linkType As String
-        Dim xt_linkedToGroupInternalId As Short
+        Dim codeLinkType As String
+        Dim ObsUidLink As Short
         Dim codeLgt As String
         Dim txtDescrLgt As String
         Dim uomDistVer As String
@@ -41,8 +43,7 @@ Module Program
         Dim valElev As Double
         Dim geoLat As Double
         Dim geoLong As Double
-        Dim xt_defaultHeightFlag As String
-        Dim xt_lockForImport As Boolean
+        Dim DefaultHeight As String
     End Structure
     Dim ReplaceFrom As String = ","
     Dim ReplaceTo As String = "."
@@ -110,6 +111,7 @@ Module Program
         Dim source = getIdOfHeader("source", headLine)
         Dim retLst As New List(Of DataFormatStruct)
 
+        Dim idCntr As Long = 5017342
 
         Dim midCntr As Short = 0
 
@@ -126,7 +128,11 @@ Module Program
                     obstacleGroup.txtName = val(name)
                     obstacleGroup.origin = val(source)
 
-                    Dim id = val(groupId)
+                    If obstacleGroup.txtName.Contains("Meggenhofen / Meggenhofen") Then
+                        Dim kfds = 3
+                    End If
+
+                    Dim id = val(groupId) + idCntr
 
                     ' find all childs
                     Dim obstacleLst As New List(Of obstacleStruct)
@@ -139,7 +145,7 @@ Module Program
                             If valL.Length > 1 Then
 
 
-                                If id = valL(groupId) Then
+                                If id = valL(groupId) + idCntr Then
 
                                     Dim obstacle As New obstacleStruct
 
@@ -170,15 +176,14 @@ Module Program
                                     obstacle.uomDistVer = valL(heightUnit)
                                     obstacle.valElev = valL(ElevationValue)
                                     obstacle.valHgt = valL(heightValue)
-                                    obstacle.xt_defaultHeightFlag = valL(defaultHeightFlag)
-                                    obstacle.xt_linkedToGroupInternalId = linkId - 1
-                                    obstacle.xt_linkType = valL(linktype)
+                                    obstacle.DefaultHeight = valL(defaultHeightFlag)
+                                    obstacle.ObsUidLink = linkId - 1
+                                    obstacle.codeLinkType = valL(linktype)
 
-                                    If obstacle.xt_linkType = "" Or obstacle.xt_linkType = "NULL" Then
-                                        obstacle.xt_linkType = "GROUP"
+                                    If obstacle.codeLinkType = "" Or obstacle.codeLinkType = "NULL" Then
+                                        obstacle.codeLinkType = "GROUP"
                                     End If
 
-                                    obstacle.xt_lockForImport = False
                                     obstacle.txtDescrType = valL(type)
 
                                     Select Case obstacle.txtDescrType
@@ -211,7 +216,7 @@ Module Program
                     f.AttributesPointer1 = obstacleLst.ToArray
 
 
-                    f.RootAttribute = midCntr
+                    f.RootAttribute = id
                     f.Datatype = "Ogr"
                     midCntr += 1
                     retLst.Add(f)
@@ -223,6 +228,84 @@ Module Program
         Next
 
         Console.WriteLine("data boundingbox is: longitude: " & minX & " to " & maxX & ", latitude: " & minY & " to " & maxY)
+
+
+
+        For finalDbCntr As Long = 0 To retLst.Count - 1
+            For compareDbCntr As Long = 0 To retLst.Count - 1
+
+                If Not compareDbCntr = finalDbCntr Then
+                    If retLst(finalDbCntr).AttributesPointer1 IsNot Nothing Then
+                        For Each cnn In retLst(finalDbCntr).AttributesPointer1
+                            If cnn IsNot Nothing And retLst(compareDbCntr).AttributesPointer1 IsNot Nothing Then
+
+                                If cnn.codeLinkType = "cable" Then
+                                    GoTo FFF
+                                End If
+
+                                'Console.WriteLine(cnn.codeLinkType)
+                                Select Case cnn.codeLinkType.ToString.ToUpper
+
+                                    Case "GROUP"
+
+                                        ' second comparer loop
+                                        For Each compCnn In retLst(compareDbCntr).AttributesPointer1
+                                            Select Case compCnn.codeLinkType.ToString.ToUpper
+                                                Case "GROUP"
+
+                                                    Dim p1 = New Drawing.PointF(cnn.geolong, cnn.geoLat)
+                                                    Dim p2 = New Drawing.PointF(compCnn.geoLong, compCnn.geoLat)
+
+                                                    Dim dist = GetGreatCircleDistance_ConstEarthRadiusInNm(p1.X, p2.X, p1.Y, p2.Y)
+
+                                                    If dist = 0 Then
+                                                        Console.WriteLine("ERR:doublicate " & retLst(compareDbCntr).RootAttribute)
+
+                                                        retLst(compareDbCntr) = Nothing
+
+                                                    Else
+                                                        If dist < 1 Then
+                                                            Dim kr = "Juhu"
+
+                                                            If retLst(finalDbCntr).AttributesPointer1 IsNot Nothing Then
+
+
+                                                                Dim qqq = retLst(finalDbCntr)
+                                                                Dim newLength = retLst(finalDbCntr).AttributesPointer1.length
+                                                                ReDim Preserve qqq.AttributesPointer1(newLength)
+                                                                qqq.AttributesPointer1(newLength) = compCnn
+
+
+                                                                retLst(finalDbCntr) = qqq
+
+                                                                Console.WriteLine("embedded " & compareDbCntr & " into " & finalDbCntr)
+
+                                                                ' delete the old one
+                                                                retLst(compareDbCntr) = Nothing
+                                                            End If
+                                                        End If
+
+                                                    End If
+
+
+
+                                            End Select
+                                        Next
+                                End Select
+
+                            End If
+                        Next
+                    End If
+
+                End If
+
+            Next
+FFF:
+        Next
+
+
+        ' do regrouping
+
 
         Dim lowerX As Short = Math.Floor(minX)
         Dim upperX As Short = Math.Ceiling(maxX)
@@ -237,14 +320,13 @@ Module Program
 
 
         If Not System.IO.Directory.Exists(System.Environment.CurrentDirectory & "\out") Then System.IO.Directory.CreateDirectory(System.Environment.CurrentDirectory & "\out")
-        Dim idCntr As Long = 5017342
 
         For x As Long = lowerX + 180 To upperX + 180
             For y As Long = lowerY + 90 To upperY + 90
 
 
                 If TileY(y) IsNot Nothing And TileX(x) IsNot Nothing Then
-                        Dim XmlWrt As XmlWriter = XmlWriter.Create("out/" & System.IO.Path.GetFileName(file) & "_" & x - 180 & "_" & y - 90 & ".ofmx", settings)
+                    Dim XmlWrt As XmlWriter = XmlWriter.Create("out/" & System.IO.Path.GetFileName(file) & "_" & x - 180 & "_" & y - 90 & ".ofmx", settings)
                     With XmlWrt
                         ' Write the Xml declaration.
                         .WriteStartDocument()
@@ -261,6 +343,7 @@ Module Program
                         .WriteAttributeString("origin", "", "csvObstacle2ofmx")
                         .WriteAttributeString("created", "", String.Format(Date.UtcNow, "yyyy-MM-dd") & "T" & String.Format(Date.UtcNow, "HH:mm:ss"))
                         .WriteAttributeString("namespace", "", "210444d1-4576-e92d-0983-4669182a8c04")
+                        .WriteAttributeString("boundingbox", "", x - 180 & ";" & y - 90 & ";1;1;")
 
 
 
@@ -316,6 +399,11 @@ Module Program
     End Sub
     Sub writeObstacle(xmlWriter As XmlWriter, x As DataFormatStruct, rootAttribute As String)
 
+
+        Dim ogrUid As String = getUUID(x.Attributes.txtName & x.Attributes.origin)
+
+
+
         ' set client region if has not been set
         xmlWriter.WriteStartElement("Ogr")
 
@@ -341,6 +429,9 @@ Module Program
         Dim cntr As Short = 0
         If x.AttributesPointer1 IsNot Nothing Then
             For Each el In x.AttributesPointer1
+
+                Dim obsUid As String = getUUID(el.geolat & el.geoLong & x.Attributes.txtName & x.Attributes.origin)
+
                 xmlWriter.WriteStartElement("Obs")
 
                 xmlWriter.WriteStartElement("ObsUid")
@@ -375,10 +466,10 @@ Module Program
                 xmlWriter.WriteElementString("uomDistVer", el.uomDistVer)
 
                 ' extensions
-                xmlWriter.WriteElementString("xt_defaultHeightFlag", el.xt_defaultHeightFlag)
-                xmlWriter.WriteElementString("xt_linkedToGroupInternalId", el.xt_linkedToGroupInternalId)
-                xmlWriter.WriteElementString("xt_linkType", el.xt_linkType)
-                xmlWriter.WriteElementString("xt_lockForImport", el.xt_lockForImport)
+                xmlWriter.WriteElementString("DefaultHeight", el.DefaultHeight)
+                xmlWriter.WriteElementString("ObsUidLink", el.ObsUidLink)
+                xmlWriter.WriteElementString("codeLinkType", el.codeLinkType)
+
 
 
                 xmlWriter.WriteEndElement() ' obs'
@@ -392,4 +483,95 @@ Module Program
 
 
     End Sub
+
+
+    Structure VectorStruct
+        Dim x As Double
+        Dim y As Double
+        Dim z As Double
+    End Structure
+    ' Function TileNbr to Position
+    <Serializable()> Structure DoublePointStruct
+        Dim x As Double
+        Dim y As Double
+        Dim rmk As String
+    End Structure
+
+    ' Coordinate Transformations
+    Dim EarthRadius As Double = 6378.137 / 1.852 ' in nautical Miles
+
+    Function GetGreatCircleDistance_ConstEarthRadiusInNm(x1 As Double, x2 As Double, y1 As Double, y2 As Double) As Double
+
+        Dim position1 As DoublePointStruct
+        Dim position2 As DoublePointStruct
+
+        If x1 = x2 And y1 = y2 Then Return 0
+
+        position1.x = x1
+        position2.x = x2
+        position1.y = y1
+        position2.y = y2
+        ' Notes from 22.3.2012
+        Dim V1 As VectorStruct
+        V1.x = EarthRadius * (Math.Cos(position1.y * Math.PI / 180) * Math.Cos(position1.x * Math.PI / 180))
+        V1.y = EarthRadius * (Math.Cos(position1.y * Math.PI / 180) * Math.Sin(position1.x * Math.PI / 180))
+        V1.z = EarthRadius * (Math.Sin(position1.y * Math.PI / 180))
+
+        Dim V2 As VectorStruct
+        V2.x = EarthRadius * (Math.Cos(position2.y * Math.PI / 180) * Math.Cos(position2.x * Math.PI / 180))
+        V2.y = EarthRadius * (Math.Cos(position2.y * Math.PI / 180) * Math.Sin(position2.x * Math.PI / 180))
+        V2.z = EarthRadius * (Math.Sin(position2.y * Math.PI / 180))
+
+        Dim AngleBetw As Double = Math.Acos((V1.x * V2.x + V1.y * V2.y + V1.z * V2.z) / (Math.Sqrt(V1.x ^ 2 + V1.y ^ 2 + V1.z ^ 2) * Math.Sqrt(V2.x ^ 2 + V2.y ^ 2 + V2.z ^ 2)))
+
+        ' Return Distance in nautical Miles
+        Return AngleBetw * EarthRadius
+    End Function
+
+    Public Function getUUID(uidStr As String) As String
+        'debug
+        ' Return uidStr
+
+        Try
+
+
+            'If uidStr.Contains("LSGG 6") Then
+            '    Dim ollid = "AseUid|LSAS|TMA|LSGG 6"
+            'End If
+            If uidStr Is Nothing Then Return ""
+            Using hasher As MD5 = MD5.Create()    ' create hash object
+
+                ' Convert to byte array and get hash
+                Dim dbytes As Byte() =
+                 hasher.ComputeHash(Encoding.UTF8.GetBytes(uidStr))
+
+                ' sb to create string from bytes
+                Dim sBuilder As New StringBuilder()
+
+                ' convert byte data to hex string
+                For n As Integer = 0 To dbytes.Length - 1
+                    sBuilder.Append(dbytes(n).ToString("X2"))
+                Next n
+
+                Dim rawhash As String = sBuilder.ToString().ToLower
+
+                Dim finalUuid As String = ""
+                Dim cnt As Short = 0
+                For Each letter In rawhash
+
+                    If cnt = 8 Or cnt = 12 Or cnt = 16 Or cnt = 20 Then
+                        finalUuid &= "-"
+                    End If
+                    finalUuid &= letter
+                    cnt += 1
+                Next
+
+                Return finalUuid
+            End Using
+        Catch ex As Exception
+
+        End Try
+        Return 0
+    End Function
+
 End Module

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="09.03.2019 17:46:39T09.03.2019 17:46:39" origin="csvObstacle2ofmx" created="09.03.2019 17:46:39T09.03.2019 17:46:39" namespace="210444d1-4576-e92d-0983-4669182a8c04">
+<OFMX-Snapshot version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://openflightmaps.org/schema/0/OFMX-Snapshot.xsd" effective="13.03.2019 12:09:22T13.03.2019 12:09:22" origin="csvObstacle2ofmx" created="13.03.2019 12:09:22T13.03.2019 12:09:22" namespace="210444d1-4576-e92d-0983-4669182a8c04" boundingbox="9;46;1;1;">
   <Ogr>
     <OgrUid dbUid="5017342">
-      <txtName>Gries im Ötztal</txtName>
+      <txtName>ÄLPLI</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -11,44 +11,42 @@
   <Obs>
     <ObsUid dbUid="5017342.0">
       <OgrUid dbUid="5017342">
-        <txtName>Gries im Ötztal</txtName>
+        <txtName>ÄLPLI</txtName>
       </OgrUid>
-      <geoLat>47.084166N</geoLat>
-      <geoLong>11.023334E</geoLong>
+      <geoLat>46.9997200009321N</geoLat>
+      <geoLong>9.96916999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017342.1">
       <OgrUid dbUid="5017342">
-        <txtName>Gries im Ötztal</txtName>
+        <txtName>ÄLPLI</txtName>
       </OgrUid>
-      <geoLat>47.073053N</geoLat>
-      <geoLong>11.024445E</geoLong>
+      <geoLat>46.9938900009321N</geoLat>
+      <geoLong>9.96388999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017343">
-      <txtName>Holzbringung Bad Mitterndorf</txtName>
+      <txtName>BELLA NOVA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -57,63 +55,42 @@
   <Obs>
     <ObsUid dbUid="5017343.0">
       <OgrUid dbUid="5017343">
-        <txtName>Holzbringung Bad Mitterndorf</txtName>
+        <txtName>BELLA NOVA</txtName>
       </OgrUid>
-      <geoLat>47.6005555760726N</geoLat>
-      <geoLong>13.901944394468E</geoLong>
+      <geoLat>46.9883300009321N</geoLat>
+      <geoLong>9.96499999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017343.1">
       <OgrUid dbUid="5017343">
-        <txtName>Holzbringung Bad Mitterndorf</txtName>
+        <txtName>BELLA NOVA</txtName>
       </OgrUid>
-      <geoLat>47.6077778151893N</geoLat>
-      <geoLong>13.9011110624032E</geoLong>
+      <geoLat>46.9875000009321N</geoLat>
+      <geoLong>9.96471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017343.2">
-      <OgrUid dbUid="5017343">
-        <txtName>Holzbringung Bad Mitterndorf</txtName>
-      </OgrUid>
-      <geoLat>47.6077778151893N</geoLat>
-      <geoLong>13.9011110624032E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017344">
-      <txtName>Lindsberg</txtName>
+      <txtName>BURG</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -122,101 +99,132 @@
   <Obs>
     <ObsUid dbUid="5017344.0">
       <OgrUid dbUid="5017344">
-        <txtName>Lindsberg</txtName>
+        <txtName>BURG</txtName>
       </OgrUid>
-      <geoLat>46.808528N</geoLat>
-      <geoLong>12.9169E</geoLong>
+      <geoLat>46.9761100009321N</geoLat>
+      <geoLong>9.99443999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017344.1">
       <OgrUid dbUid="5017344">
-        <txtName>Lindsberg</txtName>
+        <txtName>BURG</txtName>
       </OgrUid>
-      <geoLat>46.810225N</geoLat>
-      <geoLong>12.912647E</geoLong>
+      <geoLat>46.9744400009321N</geoLat>
+      <geoLong>9.99471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017344.2">
       <OgrUid dbUid="5017344">
-        <txtName>Lindsberg</txtName>
+        <txtName>BURG</txtName>
       </OgrUid>
-      <geoLat>46.806967N</geoLat>
-      <geoLong>12.908314E</geoLong>
+      <geoLat>46.9750000009321N</geoLat>
+      <geoLong>9.99388999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>2</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017344.3">
       <OgrUid dbUid="5017344">
-        <txtName>Lindsberg</txtName>
+        <txtName>BURG</txtName>
       </OgrUid>
-      <geoLat>46.803736N</geoLat>
-      <geoLong>12.906417E</geoLong>
+      <geoLat>46.9744400009321N</geoLat>
+      <geoLong>9.99360999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>3</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017344.4">
       <OgrUid dbUid="5017344">
-        <txtName>Lindsberg</txtName>
+        <txtName>BURG</txtName>
       </OgrUid>
-      <geoLat>46.808528N</geoLat>
-      <geoLong>12.9169E</geoLong>
+      <geoLat>46.9750000009321N</geoLat>
+      <geoLong>9.99360999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>4</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>4</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017344.5">
+      <OgrUid dbUid="5017344">
+        <txtName>BURG</txtName>
+      </OgrUid>
+      <geoLat>46.9758300009321N</geoLat>
+      <geoLong>9.99360999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>5</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017344.6">
+      <OgrUid dbUid="5017344">
+        <txtName>BURG</txtName>
+      </OgrUid>
+      <geoLat>46.9761100009321N</geoLat>
+      <geoLong>9.99443999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>6</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017345">
-      <txtName>Lingenau</txtName>
+      <txtName>BURGKOPF</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -225,63 +233,42 @@
   <Obs>
     <ObsUid dbUid="5017345.0">
       <OgrUid dbUid="5017345">
-        <txtName>Lingenau</txtName>
+        <txtName>BURGKOPF</txtName>
       </OgrUid>
-      <geoLat>47.44352N</geoLat>
-      <geoLong>9.93578E</geoLong>
+      <geoLat>46.9811100009321N</geoLat>
+      <geoLong>9.99777999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017345.1">
       <OgrUid dbUid="5017345">
-        <txtName>Lingenau</txtName>
+        <txtName>BURGKOPF</txtName>
       </OgrUid>
-      <geoLat>47.45225N</geoLat>
-      <geoLong>9.93103E</geoLong>
+      <geoLat>46.9758300009321N</geoLat>
+      <geoLong>9.99471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017345.2">
-      <OgrUid dbUid="5017345">
-        <txtName>Lingenau</txtName>
-      </OgrUid>
-      <geoLat>47.44442N</geoLat>
-      <geoLong>9.93885E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>100</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017346">
-      <txtName>Sölden-Schmiedhof</txtName>
+      <txtName>GAMPAPING L</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -290,44 +277,42 @@
   <Obs>
     <ObsUid dbUid="5017346.0">
       <OgrUid dbUid="5017346">
-        <txtName>Sölden-Schmiedhof</txtName>
+        <txtName>GAMPAPING L</txtName>
       </OgrUid>
-      <geoLat>46.98052N</geoLat>
-      <geoLong>11.013214E</geoLong>
+      <geoLat>46.9861100009321N</geoLat>
+      <geoLong>9.95693999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017346.1">
       <OgrUid dbUid="5017346">
-        <txtName>Sölden-Schmiedhof</txtName>
+        <txtName>GAMPAPING L</txtName>
       </OgrUid>
-      <geoLat>46.981948N</geoLat>
-      <geoLong>11.025823E</geoLong>
+      <geoLat>46.9847200009321N</geoLat>
+      <geoLong>9.96471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017347">
-      <txtName>Sperrgebiet östl. Deggendorf</txtName>
+      <txtName>GAMPAPING R</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -336,177 +321,42 @@
   <Obs>
     <ObsUid dbUid="5017347.0">
       <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
+        <txtName>GAMPAPING R</txtName>
       </OgrUid>
-      <geoLat>48.973611N</geoLat>
-      <geoLong>13.250833E</geoLong>
+      <geoLat>46.9861100009321N</geoLat>
+      <geoLong>9.95693999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017347.1">
       <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
+        <txtName>GAMPAPING R</txtName>
       </OgrUid>
-      <geoLat>48.865556N</geoLat>
-      <geoLong>13.254444E</geoLong>
+      <geoLat>46.9844400009321N</geoLat>
+      <geoLong>9.96471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.2">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.856944N</geoLat>
-      <geoLong>13.281944E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.3">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.785N</geoLat>
-      <geoLong>13.284444E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>3</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.4">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.789722N</geoLat>
-      <geoLong>13.638333E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>4</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.5">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.897778N</geoLat>
-      <geoLong>13.635556E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>5</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.6">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.923056N</geoLat>
-      <geoLong>13.498333E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>6</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.7">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.975556N</geoLat>
-      <geoLong>13.387222E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>7</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017347.8">
-      <OgrUid dbUid="5017347">
-        <txtName>Sperrgebiet östl. Deggendorf</txtName>
-      </OgrUid>
-      <geoLat>48.973611N</geoLat>
-      <geoLong>13.250833E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>150</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>8</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017348">
-      <txtName>Steinle</txtName>
+      <txtName>GARFRESCHA II</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -515,44 +365,42 @@
   <Obs>
     <ObsUid dbUid="5017348.0">
       <OgrUid dbUid="5017348">
-        <txtName>Steinle</txtName>
+        <txtName>GARFRESCHA II</txtName>
       </OgrUid>
-      <geoLat>47.222944N</geoLat>
-      <geoLong>9.889306E</geoLong>
+      <geoLat>47.0011100009321N</geoLat>
+      <geoLong>9.97582999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017348.1">
       <OgrUid dbUid="5017348">
-        <txtName>Steinle</txtName>
+        <txtName>GARFRESCHA II</txtName>
       </OgrUid>
-      <geoLat>47.224694N</geoLat>
-      <geoLong>9.886E</geoLong>
+      <geoLat>46.9961100009321N</geoLat>
+      <geoLong>9.96860999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017349">
-      <txtName>Stemmeringer Almbach</txtName>
+      <txtName>GARGELLNER KÖPFE</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -561,44 +409,42 @@
   <Obs>
     <ObsUid dbUid="5017349.0">
       <OgrUid dbUid="5017349">
-        <txtName>Stemmeringer Almbach</txtName>
+        <txtName>GARGELLNER KÖPFE</txtName>
       </OgrUid>
-      <geoLat>46.916531N</geoLat>
-      <geoLong>12.400581E</geoLong>
+      <geoLat>46.9552800009323N</geoLat>
+      <geoLong>9.90082999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017349.1">
       <OgrUid dbUid="5017349">
-        <txtName>Stemmeringer Almbach</txtName>
+        <txtName>GARGELLNER KÖPFE</txtName>
       </OgrUid>
-      <geoLat>46.908294N</geoLat>
-      <geoLong>12.414228E</geoLong>
+      <geoLat>46.9558300009323N</geoLat>
+      <geoLong>9.88916999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017350">
-      <txtName>???</txtName>
+      <txtName>HEIMSPITZ</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -607,44 +453,42 @@
   <Obs>
     <ObsUid dbUid="5017350.0">
       <OgrUid dbUid="5017350">
-        <txtName>???</txtName>
+        <txtName>HEIMSPITZ</txtName>
       </OgrUid>
-      <geoLat>46.9041318091434N</geoLat>
-      <geoLong>10.9613841700872E</geoLong>
+      <geoLat>46.9702800009322N</geoLat>
+      <geoLong>9.91888999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017350.1">
       <OgrUid dbUid="5017350">
-        <txtName>???</txtName>
+        <txtName>HEIMSPITZ</txtName>
       </OgrUid>
-      <geoLat>46.9041758427484N</geoLat>
-      <geoLong>10.9650243304523E</geoLong>
+      <geoLat>46.9700000009322N</geoLat>
+      <geoLong>9.91888999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017351">
-      <txtName>8 EUB Hauser Kaibling</txtName>
+      <txtName>JÖCHLE L</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -653,44 +497,42 @@
   <Obs>
     <ObsUid dbUid="5017351.0">
       <OgrUid dbUid="5017351">
-        <txtName>8 EUB Hauser Kaibling</txtName>
+        <txtName>JÖCHLE L</txtName>
       </OgrUid>
-      <geoLat>47.411666667597N</geoLat>
-      <geoLong>13.7794444444447E</geoLong>
+      <geoLat>46.9938900009321N</geoLat>
+      <geoLong>9.97277999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017351.1">
       <OgrUid dbUid="5017351">
-        <txtName>8 EUB Hauser Kaibling</txtName>
+        <txtName>JÖCHLE L</txtName>
       </OgrUid>
-      <geoLat>47.3894444453748N</geoLat>
-      <geoLong>13.7738888888891E</geoLong>
+      <geoLat>46.9869400009321N</geoLat>
+      <geoLong>9.96471999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017352">
-      <txtName>8 EUB Hochwurzen I</txtName>
+      <txtName>JÖCHLE R</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -699,44 +541,42 @@
   <Obs>
     <ObsUid dbUid="5017352.0">
       <OgrUid dbUid="5017352">
-        <txtName>8 EUB Hochwurzen I</txtName>
+        <txtName>JÖCHLE R</txtName>
       </OgrUid>
-      <geoLat>47.3863888898189N</geoLat>
-      <geoLong>13.6133333333336E</geoLong>
+      <geoLat>46.9938900009321N</geoLat>
+      <geoLong>9.97277999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017352.1">
       <OgrUid dbUid="5017352">
-        <txtName>8 EUB Hochwurzen I</txtName>
+        <txtName>JÖCHLE R</txtName>
       </OgrUid>
-      <geoLat>47.3758333342635N</geoLat>
-      <geoLong>13.6330555555558E</geoLong>
+      <geoLat>46.9872200009321N</geoLat>
+      <geoLong>9.96443999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017353">
-      <txtName>Alblittgrat 4</txtName>
+      <txtName>MADRISA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -745,44 +585,42 @@
   <Obs>
     <ObsUid dbUid="5017353.0">
       <OgrUid dbUid="5017353">
-        <txtName>Alblittgrat 4</txtName>
+        <txtName>MADRISA</txtName>
       </OgrUid>
-      <geoLat>47.0791902032149N</geoLat>
-      <geoLong>10.3460404254202E</geoLong>
+      <geoLat>46.9705600009322N</geoLat>
+      <geoLong>9.91693999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017353.1">
       <OgrUid dbUid="5017353">
-        <txtName>Alblittgrat 4</txtName>
+        <txtName>MADRISA</txtName>
       </OgrUid>
-      <geoLat>47.0794779505872N</geoLat>
-      <geoLong>10.3470556384205E</geoLong>
+      <geoLat>46.9708300009322N</geoLat>
+      <geoLong>9.91388999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017354">
-      <txtName>Alblittgrat 4a</txtName>
+      <txtName>MADRISELLA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -791,44 +629,42 @@
   <Obs>
     <ObsUid dbUid="5017354.0">
       <OgrUid dbUid="5017354">
-        <txtName>Alblittgrat 4a</txtName>
+        <txtName>MADRISELLA</txtName>
       </OgrUid>
-      <geoLat>47.0789076572026N</geoLat>
-      <geoLong>10.3465156436917E</geoLong>
+      <geoLat>46.9852800009321N</geoLat>
+      <geoLong>9.98332999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017354.1">
       <OgrUid dbUid="5017354">
-        <txtName>Alblittgrat 4a</txtName>
+        <txtName>MADRISELLA</txtName>
       </OgrUid>
-      <geoLat>47.0799871633711N</geoLat>
-      <geoLong>10.3455453124629E</geoLong>
+      <geoLat>46.9791700009322N</geoLat>
+      <geoLong>9.96721999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017355">
-      <txtName>ALPE ZAFERNA</txtName>
+      <txtName>NOVA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -837,10 +673,10 @@
   <Obs>
     <ObsUid dbUid="5017355.0">
       <OgrUid dbUid="5017355">
-        <txtName>ALPE ZAFERNA</txtName>
+        <txtName>NOVA</txtName>
       </OgrUid>
-      <geoLat>47.3252800009307N</geoLat>
-      <geoLong>10.1558299999998E</geoLong>
+      <geoLat>46.9838900009321N</geoLat>
+      <geoLong>9.98388999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -848,18 +684,17 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017355.1">
       <OgrUid dbUid="5017355">
-        <txtName>ALPE ZAFERNA</txtName>
+        <txtName>NOVA</txtName>
       </OgrUid>
-      <geoLat>47.3275000009307N</geoLat>
-      <geoLong>10.1516699999998E</geoLong>
+      <geoLat>46.9791700009321N</geoLat>
+      <geoLong>9.99305999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -867,14 +702,13 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017356">
-      <txtName>Alpeinalpe</txtName>
+      <txtName>NOVA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -883,44 +717,42 @@
   <Obs>
     <ObsUid dbUid="5017356.0">
       <OgrUid dbUid="5017356">
-        <txtName>Alpeinalpe</txtName>
+        <txtName>NOVA</txtName>
       </OgrUid>
-      <geoLat>47.0896029472423N</geoLat>
-      <geoLong>11.1772927982806E</geoLong>
+      <geoLat>46.9838900009321N</geoLat>
+      <geoLong>9.98388999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017356.1">
       <OgrUid dbUid="5017356">
-        <txtName>Alpeinalpe</txtName>
+        <txtName>NOVA</txtName>
       </OgrUid>
-      <geoLat>47.0925542762144N</geoLat>
-      <geoLong>11.1879278734892E</geoLong>
+      <geoLat>46.9788900009321N</geoLat>
+      <geoLong>9.99305999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017357">
-      <txtName>Annaberg im Lammertal / Riedlkar  DSB</txtName>
+      <txtName>SCHAFBERG II</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -929,44 +761,42 @@
   <Obs>
     <ObsUid dbUid="5017357.0">
       <OgrUid dbUid="5017357">
-        <txtName>Annaberg im Lammertal / Riedlkar  DSB</txtName>
+        <txtName>SCHAFBERG II</txtName>
       </OgrUid>
-      <geoLat>47.5188888898178N</geoLat>
-      <geoLong>13.4488888888891E</geoLong>
+      <geoLat>46.9644400009322N</geoLat>
+      <geoLong>9.90638999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017357.1">
       <OgrUid dbUid="5017357">
-        <txtName>Annaberg im Lammertal / Riedlkar  DSB</txtName>
+        <txtName>SCHAFBERG II</txtName>
       </OgrUid>
-      <geoLat>47.5302777787067N</geoLat>
-      <geoLong>13.4650000000003E</geoLong>
+      <geoLat>46.9586100009322N</geoLat>
+      <geoLong>9.89638999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017358">
-      <txtName>Annaberg im Lammertal / Woernhof</txtName>
+      <txtName>SCHAFBERG</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -975,44 +805,42 @@
   <Obs>
     <ObsUid dbUid="5017358.0">
       <OgrUid dbUid="5017358">
-        <txtName>Annaberg im Lammertal / Woernhof</txtName>
+        <txtName>SCHAFBERG</txtName>
       </OgrUid>
-      <geoLat>47.4900000009289N</geoLat>
-      <geoLong>13.4313888888891E</geoLong>
+      <geoLat>46.9675000009322N</geoLat>
+      <geoLong>9.91916999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017358.1">
       <OgrUid dbUid="5017358">
-        <txtName>Annaberg im Lammertal / Woernhof</txtName>
+        <txtName>SCHAFBERG</txtName>
       </OgrUid>
-      <geoLat>47.4933333342622N</geoLat>
-      <geoLong>13.4297222222225E</geoLong>
+      <geoLat>46.9583300009322N</geoLat>
+      <geoLong>9.89610999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017359">
-      <txtName>Ansbacher Hütte</txtName>
+      <txtName>SCHAFBERG</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1021,44 +849,42 @@
   <Obs>
     <ObsUid dbUid="5017359.0">
       <OgrUid dbUid="5017359">
-        <txtName>Ansbacher Hütte</txtName>
+        <txtName>SCHAFBERG</txtName>
       </OgrUid>
-      <geoLat>47.1513093063189N</geoLat>
-      <geoLong>10.3987392659548E</geoLong>
+      <geoLat>46.9591700009322N</geoLat>
+      <geoLong>9.89721999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017359.1">
       <OgrUid dbUid="5017359">
-        <txtName>Ansbacher Hütte</txtName>
+        <txtName>SCHAFBERG</txtName>
       </OgrUid>
-      <geoLat>47.1684084757588N</geoLat>
-      <geoLong>10.4030695428625E</geoLong>
+      <geoLat>46.9613900009322N</geoLat>
+      <geoLong>9.89166999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017360">
-      <txtName>Ardagger Markt</txtName>
+      <txtName>SCHLÜACHTECK</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1067,10 +893,10 @@
   <Obs>
     <ObsUid dbUid="5017360.0">
       <OgrUid dbUid="5017360">
-        <txtName>Ardagger Markt</txtName>
+        <txtName>SCHLÜACHTECK</txtName>
       </OgrUid>
-      <geoLat>48.1927972331473N</geoLat>
-      <geoLong>14.8238333460485E</geoLong>
+      <geoLat>46.9594400009322N</geoLat>
+      <geoLong>9.90082999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1078,18 +904,17 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017360.1">
       <OgrUid dbUid="5017360">
-        <txtName>Ardagger Markt</txtName>
+        <txtName>SCHLÜACHTECK</txtName>
       </OgrUid>
-      <geoLat>48.1845138458221N</geoLat>
-      <geoLong>14.8288722884439E</geoLong>
+      <geoLat>46.9583300009322N</geoLat>
+      <geoLong>9.89638999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1097,33 +922,13 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
-  </Obs>
-  <Obs>
-    <ObsUid dbUid="5017360.2">
-      <OgrUid dbUid="5017360">
-        <txtName>Ardagger Markt</txtName>
-      </OgrUid>
-      <geoLat>48.1845138458221N</geoLat>
-      <geoLong>14.8288722884439E</geoLong>
-    </ObsUid>
-    <txtDescrType>TOWER</txtDescrType>
-    <codeLgt>N</codeLgt>
-    <txtDescrLgt />
-    <valElev>0</valElev>
-    <valHgt>50</valHgt>
-    <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017361">
-      <txtName>Aschachtal</txtName>
+      <txtName>SCHWARZKÖPFLE</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1132,10 +937,10 @@
   <Obs>
     <ObsUid dbUid="5017361.0">
       <OgrUid dbUid="5017361">
-        <txtName>Aschachtal</txtName>
+        <txtName>SCHWARZKÖPFLE</txtName>
       </OgrUid>
-      <geoLat>48.3737416315267N</geoLat>
-      <geoLong>13.9550500188265E</geoLong>
+      <geoLat>46.9816700009321N</geoLat>
+      <geoLong>9.97860999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1143,18 +948,17 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017361.1">
       <OgrUid dbUid="5017361">
-        <txtName>Aschachtal</txtName>
+        <txtName>SCHWARZKÖPFLE</txtName>
       </OgrUid>
-      <geoLat>48.3762277986014N</geoLat>
-      <geoLong>13.9603722575258E</geoLong>
+      <geoLat>46.9811100009321N</geoLat>
+      <geoLong>9.97777999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1162,18 +966,17 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017361.2">
       <OgrUid dbUid="5017361">
-        <txtName>Aschachtal</txtName>
+        <txtName>SCHWARZKÖPFLE</txtName>
       </OgrUid>
-      <geoLat>48.3762277986014N</geoLat>
-      <geoLong>13.9603722575258E</geoLong>
+      <geoLat>46.9802800009321N</geoLat>
+      <geoLong>9.97916999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1181,14 +984,103 @@
     <valElev>0</valElev>
     <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>Y</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>2</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>2</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017361.3">
+      <OgrUid dbUid="5017361">
+        <txtName>SCHWARZKÖPFLE</txtName>
+      </OgrUid>
+      <geoLat>46.9783300009321N</geoLat>
+      <geoLong>9.97999999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>3</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017361.4">
+      <OgrUid dbUid="5017361">
+        <txtName>SCHWARZKÖPFLE</txtName>
+      </OgrUid>
+      <geoLat>46.9769400009321N</geoLat>
+      <geoLong>9.97943999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>4</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017361.5">
+      <OgrUid dbUid="5017361">
+        <txtName>SCHWARZKÖPFLE</txtName>
+      </OgrUid>
+      <geoLat>46.9761100009322N</geoLat>
+      <geoLong>9.98138999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>5</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017361.6">
+      <OgrUid dbUid="5017361">
+        <txtName>SCHWARZKÖPFLE</txtName>
+      </OgrUid>
+      <geoLat>46.9777800009321N</geoLat>
+      <geoLong>9.98055999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>6</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017361.7">
+      <OgrUid dbUid="5017361">
+        <txtName>SCHWARZKÖPFLE</txtName>
+      </OgrUid>
+      <geoLat>46.9816700009321N</geoLat>
+      <geoLong>9.97860999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>7</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017362">
-      <txtName>Aschbach - Grube</txtName>
+      <txtName>SCHWARZKÖPFLE</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1197,44 +1089,42 @@
   <Obs>
     <ObsUid dbUid="5017362.0">
       <OgrUid dbUid="5017362">
-        <txtName>Aschbach - Grube</txtName>
+        <txtName>SCHWARZKÖPFLE</txtName>
       </OgrUid>
-      <geoLat>47.0154228369705N</geoLat>
-      <geoLong>11.0055005195074E</geoLong>
+      <geoLat>46.9844400009321N</geoLat>
+      <geoLong>9.98305999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017362.1">
       <OgrUid dbUid="5017362">
-        <txtName>Aschbach - Grube</txtName>
+        <txtName>SCHWARZKÖPFLE</txtName>
       </OgrUid>
-      <geoLat>47.0216457715858N</geoLat>
-      <geoLong>11.0047771381208E</geoLong>
+      <geoLat>46.9775000009322N</geoLat>
+      <geoLong>9.96888999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>150</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017363">
-      <txtName>Außerböden</txtName>
+      <txtName>SONNENALP</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1243,44 +1133,42 @@
   <Obs>
     <ObsUid dbUid="5017363.0">
       <OgrUid dbUid="5017363">
-        <txtName>Außerböden</txtName>
+        <txtName>SONNENALP</txtName>
       </OgrUid>
-      <geoLat>47.0997904403864N</geoLat>
-      <geoLong>11.8060056964694E</geoLong>
+      <geoLat>46.9752800009322N</geoLat>
+      <geoLong>9.92138999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017363.1">
       <OgrUid dbUid="5017363">
-        <txtName>Außerböden</txtName>
+        <txtName>SONNENALP</txtName>
       </OgrUid>
-      <geoLat>47.0999299245387N</geoLat>
-      <geoLong>11.7972015426753E</geoLong>
+      <geoLat>46.9747200009322N</geoLat>
+      <geoLong>9.92305999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017364">
-      <txtName>Äußere Brunnalm Hochleger</txtName>
+      <txtName>SPATLA</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1289,44 +1177,42 @@
   <Obs>
     <ObsUid dbUid="5017364.0">
       <OgrUid dbUid="5017364">
-        <txtName>Äußere Brunnalm Hochleger</txtName>
+        <txtName>SPATLA</txtName>
       </OgrUid>
-      <geoLat>47.4031242131104N</geoLat>
-      <geoLong>12.3505088477762E</geoLong>
+      <geoLat>46.9844400009321N</geoLat>
+      <geoLong>9.99693999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017364.1">
       <OgrUid dbUid="5017364">
-        <txtName>Äußere Brunnalm Hochleger</txtName>
+        <txtName>SPATLA</txtName>
       </OgrUid>
-      <geoLat>47.4163444519937N</geoLat>
-      <geoLong>12.3146286748628E</geoLong>
+      <geoLat>46.9805600009321N</geoLat>
+      <geoLong>9.99305999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>100</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017365">
-      <txtName>Bad Hofgastein / Hohe Scharte DSL</txtName>
+      <txtName>TÜBINGERHÜTTE</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1335,44 +1221,42 @@
   <Obs>
     <ObsUid dbUid="5017365.0">
       <OgrUid dbUid="5017365">
-        <txtName>Bad Hofgastein / Hohe Scharte DSL</txtName>
+        <txtName>TÜBINGERHÜTTE</txtName>
       </OgrUid>
-      <geoLat>47.1497222231489N</geoLat>
-      <geoLong>13.0527777777779E</geoLong>
+      <geoLat>46.9155600009323N</geoLat>
+      <geoLong>9.99999999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017365.1">
       <OgrUid dbUid="5017365">
-        <txtName>Bad Hofgastein / Hohe Scharte DSL</txtName>
+        <txtName>TÜBINGERHÜTTE</txtName>
       </OgrUid>
-      <geoLat>47.1541666675932N</geoLat>
-      <geoLong>13.0455555555557E</geoLong>
+      <geoLat>46.9116700009323N</geoLat>
+      <geoLong>10.0033299999998E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017366">
-      <txtName>Badgastein / DSL Graukogel I</txtName>
+      <txtName>VALISERA II</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1381,44 +1265,42 @@
   <Obs>
     <ObsUid dbUid="5017366.0">
       <OgrUid dbUid="5017366">
-        <txtName>Badgastein / DSL Graukogel I</txtName>
+        <txtName>VALISERA II</txtName>
       </OgrUid>
-      <geoLat>47.1161111120391N</geoLat>
-      <geoLong>13.1397222222224E</geoLong>
+      <geoLat>47.0041700009321N</geoLat>
+      <geoLong>9.96277999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017366.1">
       <OgrUid dbUid="5017366">
-        <txtName>Badgastein / DSL Graukogel I</txtName>
+        <txtName>VALISERA II</txtName>
       </OgrUid>
-      <geoLat>47.1108333342614N</geoLat>
-      <geoLong>13.150277777778E</geoLong>
+      <geoLat>46.9880600009321N</geoLat>
+      <geoLong>9.96555999999985E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017367">
-      <txtName>Badgastein / Hirschkar Schlepplift</txtName>
+      <txtName>VALZIFENZ</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1427,44 +1309,42 @@
   <Obs>
     <ObsUid dbUid="5017367.0">
       <OgrUid dbUid="5017367">
-        <txtName>Badgastein / Hirschkar Schlepplift</txtName>
+        <txtName>VALZIFENZ</txtName>
       </OgrUid>
-      <geoLat>47.1052777787052N</geoLat>
-      <geoLong>13.0947222222224E</geoLong>
+      <geoLat>46.9563900009322N</geoLat>
+      <geoLong>9.90832999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017367.1">
       <OgrUid dbUid="5017367">
-        <txtName>Badgastein / Hirschkar Schlepplift</txtName>
+        <txtName>VALZIFENZ</txtName>
       </OgrUid>
-      <geoLat>47.1075000009275N</geoLat>
-      <geoLong>13.0988888888891E</geoLong>
+      <geoLat>46.9561100009322N</geoLat>
+      <geoLong>9.89693999999987E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017368">
-      <txtName>Badgastein / Kreuzkogel Schlepplift</txtName>
+      <txtName>Vergaldaalpe</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1473,10 +1353,10 @@
   <Obs>
     <ObsUid dbUid="5017368.0">
       <OgrUid dbUid="5017368">
-        <txtName>Badgastein / Kreuzkogel Schlepplift</txtName>
+        <txtName>Vergaldaalpe</txtName>
       </OgrUid>
-      <geoLat>47.0600000009273N</geoLat>
-      <geoLong>13.0761111111113E</geoLong>
+      <geoLat>46.95569N</geoLat>
+      <geoLong>9.93546E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1484,18 +1364,17 @@
     <valElev>0</valElev>
     <valHgt>100</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017368.1">
       <OgrUid dbUid="5017368">
-        <txtName>Badgastein / Kreuzkogel Schlepplift</txtName>
+        <txtName>Vergaldaalpe</txtName>
       </OgrUid>
-      <geoLat>47.0558333342609N</geoLat>
-      <geoLong>13.0938888888891E</geoLong>
+      <geoLat>46.95563N</geoLat>
+      <geoLong>9.94049E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
@@ -1503,14 +1382,13 @@
     <valElev>0</valElev>
     <valHgt>100</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>N</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017369">
-      <txtName>Balbach 2 SL</txtName>
+      <txtName>VERGALDEN</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1519,44 +1397,42 @@
   <Obs>
     <ObsUid dbUid="5017369.0">
       <OgrUid dbUid="5017369">
-        <txtName>Balbach 2 SL</txtName>
+        <txtName>VERGALDEN</txtName>
       </OgrUid>
-      <geoLat>47.2199910047496N</geoLat>
-      <geoLong>10.9416286427681E</geoLong>
+      <geoLat>46.9616700009322N</geoLat>
+      <geoLong>9.91888999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017369.1">
       <OgrUid dbUid="5017369">
-        <txtName>Balbach 2 SL</txtName>
+        <txtName>VERGALDEN</txtName>
       </OgrUid>
-      <geoLat>47.2160772879018N</geoLat>
-      <geoLong>10.9520896026056E</geoLong>
+      <geoLat>46.9597200009322N</geoLat>
+      <geoLong>9.92138999999986E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Ogr>
     <OgrUid dbUid="5017370">
-      <txtName>Ballunspitze 6-SBK</txtName>
+      <txtName>VERSETTLA II</txtName>
     </OgrUid>
     <lateralPrecision>0</lateralPrecision>
     <verticalPrecision>0</verticalPrecision>
@@ -1565,39 +1441,81 @@
   <Obs>
     <ObsUid dbUid="5017370.0">
       <OgrUid dbUid="5017370">
-        <txtName>Ballunspitze 6-SBK</txtName>
+        <txtName>VERSETTLA II</txtName>
       </OgrUid>
-      <geoLat>46.9590615943072N</geoLat>
-      <geoLong>10.1398187192688E</geoLong>
+      <geoLat>46.9850000009321N</geoLat>
+      <geoLong>10.0069399999998E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>0</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
   <Obs>
     <ObsUid dbUid="5017370.1">
       <OgrUid dbUid="5017370">
-        <txtName>Ballunspitze 6-SBK</txtName>
+        <txtName>VERSETTLA II</txtName>
       </OgrUid>
-      <geoLat>46.9654642859787N</geoLat>
-      <geoLong>10.145188315476E</geoLong>
+      <geoLat>46.9800000009321N</geoLat>
+      <geoLong>9.99249999999984E</geoLong>
     </ObsUid>
     <txtDescrType>TOWER</txtDescrType>
     <codeLgt>N</codeLgt>
     <txtDescrLgt />
     <valElev>0</valElev>
-    <valHgt>30</valHgt>
+    <valHgt>50</valHgt>
     <uomDistVer>M</uomDistVer>
-    <xt_defaultHeightFlag>N</xt_defaultHeightFlag>
-    <xt_linkedToGroupInternalId>1</xt_linkedToGroupInternalId>
-    <xt_linkType>cable</xt_linkType>
-    <xt_lockForImport>False</xt_lockForImport>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Ogr>
+    <OgrUid dbUid="5017371">
+      <txtName>VERSETTLA II</txtName>
+    </OgrUid>
+    <lateralPrecision>0</lateralPrecision>
+    <verticalPrecision>0</verticalPrecision>
+    <origin>OEAMTC CIS DB</origin>
+  </Ogr>
+  <Obs>
+    <ObsUid dbUid="5017371.0">
+      <OgrUid dbUid="5017371">
+        <txtName>VERSETTLA II</txtName>
+      </OgrUid>
+      <geoLat>46.9850000009321N</geoLat>
+      <geoLong>10.0069399999998E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>0</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
+  </Obs>
+  <Obs>
+    <ObsUid dbUid="5017371.1">
+      <OgrUid dbUid="5017371">
+        <txtName>VERSETTLA II</txtName>
+      </OgrUid>
+      <geoLat>46.9791700009321N</geoLat>
+      <geoLong>9.99416999999985E</geoLong>
+    </ObsUid>
+    <txtDescrType>TOWER</txtDescrType>
+    <codeLgt>N</codeLgt>
+    <txtDescrLgt />
+    <valElev>0</valElev>
+    <valHgt>50</valHgt>
+    <uomDistVer>M</uomDistVer>
+    <DefaultHeight>Y</DefaultHeight>
+    <ObsUidLink>1</ObsUidLink>
+    <codeLinkType>cable</codeLinkType>
   </Obs>
 </OFMX-Snapshot>
