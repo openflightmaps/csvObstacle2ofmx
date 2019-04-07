@@ -56,7 +56,7 @@ Module Program
         End If
         Dim Filepath As String = ""
         For i As Short = 0 To args.Count - 1
-            If args(i) = "-f" Then
+            If args(i) = "--f" Then
                 Filepath = args(i + 1)
                 Console.WriteLine("will convert: " & Filepath)
             End If
@@ -176,7 +176,29 @@ Module Program
                                     obstacle.uomDistVer = valL(heightUnit)
                                     obstacle.valElev = valL(ElevationValue)
                                     obstacle.valHgt = valL(heightValue)
+
+
                                     obstacle.DefaultHeight = valL(defaultHeightFlag)
+
+                                    Select Case obstacle.uomDistVer
+                                        Case "M"
+                                            If obstacle.valHgt > 300 Then
+                                                Console.WriteLine("WARN: Height over 300 M, set to 300 M default height")
+                                                obstacle.DefaultHeight = True
+                                                obstacle.valHgt = 300
+                                            End If
+
+                                        Case "FT"
+                                            If obstacle.valHgt > 900 Then
+                                                Console.WriteLine("WARN: Height over 900 FT, set to 300 M default height")
+                                                obstacle.DefaultHeight = True
+                                                obstacle.valHgt = 900
+                                            End If
+                                    End Select
+
+
+
+
                                     obstacle.ObsUidLink = linkId - 1
                                     obstacle.codeLinkType = valL(linktype)
 
