@@ -90,8 +90,13 @@ Module Program
         Dim lines = str.Split({CType(vbNewLine, Char), CType(vbLf, Char)})
 
 
-        Dim headLine() As String = lines(0).Split(";")
-        Dim groupId = getIdOfHeader("codeGroupId", headLine)
+        Dim headLine() As String = lines(0).Split({CType(";", Char), CType(",", Char)})
+        Dim groupId = getIdOfHeader("codeId", headLine)
+
+        If groupId = -1 Then
+            groupId = getIdOfHeader("codeGroup", headLine)
+        End If
+
         Dim name = getIdOfHeader("txtName", headLine)
         Dim groupInternalId = getIdOfHeader("locGroupMemberId", headLine)
         Dim linkedToGroupInternalId = getIdOfHeader("locLinkedToGroupMemberId", headLine)
@@ -118,13 +123,23 @@ Module Program
         For i As Long = 1 To lines.Length - 1
 
             Dim obstacleGroup As New obstacleGroupStruct
-            lines(i) = lines(i).Replace(vbNewLine, " ")
-            Dim val = lines(i).Split(";")
+            lines(i) = lines(i).Replace(vbNewLine, " ").Replace("""", "")
+            Dim val = lines(i).Split({CType(";", Char), CType(",", Char)})
+
             Try
 
                 If val.Length > 10 Then
-                    If val(lateralPrecision) <> "" Then obstacleGroup.lateralPrecision = val(lateralPrecision)
-                    If val(obstacleRadius) <> "" Then obstacleGroup.obstacleRadius = val(obstacleRadius)
+                    Try
+                        If lateralPrecision <> -1 Then If val(lateralPrecision) <> "" Then obstacleGroup.lateralPrecision = val(lateralPrecision)
+                    Catch ex As Exception
+
+                    End Try
+                    Try
+                        If obstacleRadius <> -1 Then If val(obstacleRadius) <> "" Then obstacleGroup.obstacleRadius = val(obstacleRadius)
+                    Catch ex As Exception
+
+                    End Try
+
                     obstacleGroup.txtName = val(name)
                     obstacleGroup.origin = val(source)
 
@@ -132,28 +147,70 @@ Module Program
                         Dim kfds = 3
                     End If
 
-                    Dim id = val(groupId) + idCntr
+                    Dim id As Long = -1
+                    Try
+                        If val(groupId) <> "" Then id = val(groupId) + idCntr
+                    Catch ex As Exception
+
+                    End Try
+
+
+
 
                     ' find all childs
                     Dim obstacleLst As New List(Of obstacleStruct)
                     Dim linkId As Short = 1
+
+
+
+
                     For l As Long = 1 To lines.Length - 1
-                        Dim valL = lines(l).Split(";")
+                        lines(l) = lines(l).Replace("""", "")
+                        Dim valL = lines(l).Split({CType(";", Char), CType(",", Char)})
                         Try
 
 
                             If valL.Length > 1 Then
 
 
-                                If id = valL(groupId) + idCntr Then
+                                If valL(groupId) = "" Then valL(groupId) = -1
+
+                                If id = valL(groupId) + idCntr Or id = -1 Then
+
+                                    If id = -1 Then
+                                        valL = val
+                                    End If
+
+
 
                                     Dim obstacle As New obstacleStruct
 
 
                                     obstacle.codeLgt = valL(lighted)
 
-                                    obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo)
-                                    obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo)
+                                    ' handle coord format
+
+                                    Dim latFac As Long = 1
+                                    Dim lonFac As Long = 1
+                                    If valL(latitude).Contains("N") Or valL(latitude).Contains("S") And valL(longitutde).Contains("E") Or valL(longitutde).Contains("W") Then
+
+                                        If valL(latitude).Contains("S") Then
+                                            latFac = -1
+                                        End If
+
+
+                                        If valL(longitutde).Contains("W") Then
+                                            lonFac = -1
+                                        End If
+
+
+                                        obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo).Replace("N", "").Replace("S", "") * latFac
+                                        obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo).Replace("E", "").Replace("W", "") * lonFac
+                                    Else
+                                        obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo)
+                                        obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo)
+                                    End If
+
 
                                     ' add to buffer array, for later tile export
                                     Dim xIdx As Long = Math.Floor(obstacle.geoLong) + 180
@@ -177,8 +234,12 @@ Module Program
                                     obstacle.valElev = valL(ElevationValue)
                                     obstacle.valHgt = valL(heightValue)
 
+                                    Try
+                                        If defaultHeightFlag > -1 Then obstacle.DefaultHeight = valL(defaultHeightFlag)
+                                    Catch ex As Exception
 
-                                    obstacle.DefaultHeight = valL(defaultHeightFlag)
+                                    End Try
+
 
                                     Select Case obstacle.uomDistVer
                                         Case "M"
@@ -227,11 +288,16 @@ Module Program
                                 Else
                                     linkId = 1
                                 End If
+
+                                If id = -1 Then Exit For
+
                             End If
                         Catch ex As Exception
                             handleException(ex, Reflection.MethodBase.GetCurrentMethod, "cant read obstalce csv entry")
                         End Try
                     Next
+
+
 
                     Dim f As New DataFormatStruct
                     f.Attributes = obstacleGroup
@@ -242,7 +308,7 @@ Module Program
                     f.Datatype = "Ogr"
                     midCntr += 1
                     retLst.Add(f)
-                    Console.WriteLine("INFO: added OGR " & f.Attributes.txtName)
+                    Console.WriteLine("INFO: added OGR " & f.Attributes.txtName & "with " & obstacleLst.Count & " elements")
                 End If
             Catch ex As Exception
                 handleException(ex, Reflection.MethodBase.GetCurrentMethod, "cant read obstalce csv entry")
