@@ -1,0 +1,11 @@
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\bin\Debug\netcoreapp2.0\obstacleCsv2ofmx.deps.json
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\bin\Debug\netcoreapp2.0\obstacleCsv2ofmx.runtimeconfig.json
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\bin\Debug\netcoreapp2.0\obstacleCsv2ofmx.runtimeconfig.dev.json
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\bin\Debug\netcoreapp2.0\obstacleCsv2ofmx.dll
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\bin\Debug\netcoreapp2.0\obstacleCsv2ofmx.pdb
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\ConsoleApp1.vbprojResolveAssemblyReference.cache
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\ConsoleApp1.vbproj.CoreCompileInputs.cache
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\ConsoleApp1.AssemblyInfo.vb
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\obstacleCsv2ofmx.dll
+C:\Users\stefa\Documents\GitHub\csvObstacle2ofmx\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\obstacleCsv2ofmx.pdb
