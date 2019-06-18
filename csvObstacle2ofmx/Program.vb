@@ -99,11 +99,15 @@ Module Program
         Dim headLine() As String = lines(0).Split({CType(";", Char), CType(",", Char)})
         Dim groupId = getIdOfHeader("codeGroupId", headLine)
 
+        Dim obsId As Double = getIdOfHeader("codeId", headLine)
+
         If groupId = -1 Then
             groupId = getIdOfHeader("codeId", headLine)
         End If
 
-        Dim obsId As Double = getIdOfHeader("codeId", headLine)
+        If obsId = -1 Then obsId = groupId
+
+
         Dim codeType As Double = getIdOfHeader("codeType", headLine)
 
         Dim name As Double = getIdOfHeader("txtName", headLine)
@@ -148,45 +152,55 @@ Module Program
 
             Dim obstacleGroup As New obstacleGroupStruct
             lines(i) = lines(i).Replace(vbNewLine, " ").Replace("""", "")
-            Dim val = lines(i).Split({CType(";", Char), CType(",", Char)})
+            Dim val = lines(i).Split({CType(";", Char)})
 
             Try
 
                 If val.Length > 10 Then
-                    obstacleGroup.valGeoAccuracy = val(valGeoAccuracy)
-                    obstacleGroup.uomGeoAccuracy = val(uomGeoAccuracy)
+                    If valGeoAccuracy <> -1 Then obstacleGroup.valGeoAccuracy = val(valGeoAccuracy)
+                    If uomGeoAccuracy <> -1 Then obstacleGroup.uomGeoAccuracy = val(uomGeoAccuracy)
 
-                    obstacleGroup.valElevAccuracy = val(valElevAccuracy)
-                    obstacleGroup.uomElevAccuracy = val(uomDistVer)
+                    If valElevAccuracy <> -1 Then obstacleGroup.valElevAccuracy = val(valElevAccuracy)
+                    If uomDistVer <> -1 Then obstacleGroup.uomElevAccuracy = val(uomDistVer)
 
                     obstacleGroup.txtRmk = val(txtRmk)
-                    obstacleGroup.txtName = val(name)
-                    obstacleGroup.origin = val(source)
+                        obstacleGroup.txtName = val(name)
+                        obstacleGroup.origin = val(source)
 
 
-                    Dim id As Long = -1
-                    Try
-                        If val(groupId) <> "" Then id = val(groupId) + idCntr
-                    Catch ex As Exception
+                        Dim id As Long = -1
+                        Try
+                            If val(groupId) <> "" Then id = val(groupId) + idCntr
+                        Catch ex As Exception
 
-                    End Try
+                        End Try
 
 
-                    ' find all childs
-                    Dim obstacleLst As New List(Of obstacleStruct)
-                    Dim linkId As Short = 1
-                    Dim valL() As String = {""}
+                        ' find all childs
+                        Dim obstacleLst As New List(Of obstacleStruct)
+                        Dim linkId As Short = 1
+                        Dim valL() As String = {""}
 
-                    For l As Long = 1 To lines.Length - 1
-                        lines(l) = lines(l).Replace("""", "")
-                        valL = lines(l).Split({CType(";", Char), CType(",", Char)})
+                        For l As Long = 1 To lines.Length - 1
+                            lines(l) = lines(l).Replace("""", "")
+                        valL = lines(l).Split({CType(";", Char)})
                         Try
 
-                            If valL.Length > 1 Then
+                                If valL.Length > 1 Then
 
-                                If valL(groupId) = "" Then valL(groupId) = -1
+                                    If valL(groupId) = "" Then valL(groupId) = -1
 
-                                If id = valL(groupId) + idCntr Or id = -1 Then
+
+
+                                Dim cId As Long
+
+                                Try
+                                    cId = CType(valL(groupId) + idCntr, Long)
+                                Catch ex As Exception
+
+                                End Try
+
+                                If id = cId Or id = -1 Then
 
                                     If id = -1 Then
                                         valL = val
@@ -196,7 +210,7 @@ Module Program
                                     If (valL(lighted) = "Y") Then obstacle.codeLgt = True
                                     If (valL(marked) = "Y") Then obstacle.codeMarking = True
 
-                                    obstacle.txtDescrLgt = valL(txtDescrLgt)
+                                    If txtDescrLgt <> -1 Then obstacle.txtDescrLgt = valL(txtDescrLgt)
                                     obstacle.txtDescrMarking = valL(txtDescrMarking)
                                     obstacle.valElev = valL(valElev)
                                     obstacle.valHgt = valL(valHgt)
@@ -308,33 +322,33 @@ Module Program
                                     lines(l) = ""
                                 Else
                                     linkId = 1
+                                    End If
+
+                                    If id = -1 Then Exit For
+
                                 End If
-
-                                If id = -1 Then Exit For
-
-                            End If
-                        Catch ex As Exception
-                            handleException(ex, Reflection.MethodBase.GetCurrentMethod, "cant read obstalce csv entry")
-                        End Try
-                    Next
+                            Catch ex As Exception
+                                handleException(ex, Reflection.MethodBase.GetCurrentMethod, "cant read obstalce csv entry")
+                            End Try
+                        Next
 
 
 
-                    Dim f As New DataFormatStruct
-                    f.Attributes = obstacleGroup
-                    f.AttributesPointer1 = obstacleLst.ToArray
-                    If id = -1 Then
-                        f.RootAttribute = valL(obsId) + idCntr
-                    Else
-                        f.RootAttribute = id
+                        Dim f As New DataFormatStruct
+                        f.Attributes = obstacleGroup
+                        f.AttributesPointer1 = obstacleLst.ToArray
+                        If id = -1 Then
+                            f.RootAttribute = valL(obsId) + idCntr
+                        Else
+                            f.RootAttribute = id
 
+                        End If
+
+                        f.Datatype = "Ogr"
+                        midCntr += 1
+                        retLst.Add(f)
+                        Console.WriteLine("INFO: added OGR " & f.Attributes.txtName & "with " & obstacleLst.Count & " elements")
                     End If
-
-                    f.Datatype = "Ogr"
-                    midCntr += 1
-                    retLst.Add(f)
-                    Console.WriteLine("INFO: added OGR " & f.Attributes.txtName & "with " & obstacleLst.Count & " elements")
-                End If
             Catch ex As Exception
                 handleException(ex, Reflection.MethodBase.GetCurrentMethod, "cant read obstalce csv entry")
             End Try

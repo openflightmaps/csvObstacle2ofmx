@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
+    <RootNamespace>obstacleCsv2ofmx</RootNamespace>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>obstacleCsv2ofmx</AssemblyName>
   </PropertyGroup>

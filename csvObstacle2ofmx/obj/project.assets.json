@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stefa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\ovord\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stefa\\Documents\\GitHub\\csvObstacle2ofmx\\csvObstacle2ofmx\\ConsoleApp1.vbproj",
+      "projectUniqueName": "C:\\Users\\ovord\\Source\\Repos\\csvObstacle2ofmx3\\csvObstacle2ofmx\\osbtacleCsv2Ofmx.vbproj",
       "projectName": "obstacleCsv2ofmx",
-      "projectPath": "C:\\Users\\stefa\\Documents\\GitHub\\csvObstacle2ofmx\\csvObstacle2ofmx\\ConsoleApp1.vbproj",
-      "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stefa\\Documents\\GitHub\\csvObstacle2ofmx\\csvObstacle2ofmx\\obj\\",
+      "projectPath": "C:\\Users\\ovord\\Source\\Repos\\csvObstacle2ofmx3\\csvObstacle2ofmx\\osbtacleCsv2Ofmx.vbproj",
+      "packagesPath": "C:\\Users\\ovord\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ovord\\Source\\Repos\\csvObstacle2ofmx3\\csvObstacle2ofmx\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\ovord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
