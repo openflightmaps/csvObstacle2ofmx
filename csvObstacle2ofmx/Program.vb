@@ -57,6 +57,9 @@ Module Program
     End Structure
     Dim ReplaceFrom As String = ","
     Dim ReplaceTo As String = "."
+
+
+    Dim Region As String = ""
     Sub Main(args As String())
 
         ' dot / comma
@@ -65,17 +68,27 @@ Module Program
             ReplaceTo = ","
         End If
         Dim Filepath As String = ""
+
         For i As Short = 0 To args.Count - 1
             If args(i) = "--f" Then
                 Filepath = args(i + 1)
                 Console.WriteLine("will convert: " & Filepath)
             End If
 
+            If args(i) = "--r" Then
+                Region = args(i + 1)
+                Console.WriteLine("region found: " & Region)
+            End If
         Next
 
         If Filepath = "" Then
             Console.WriteLine("please give parameter -f -> input filepath!")
         End If
+
+        If Region = "" Then
+            Console.WriteLine("please give parameter --r -> input Region (e.g. LOVV)!")
+        End If
+
         parseCsv2OFMX(Filepath)
 
     End Sub
@@ -152,7 +165,7 @@ Module Program
 
             Dim obstacleGroup As New obstacleGroupStruct
             lines(i) = lines(i).Replace(vbNewLine, " ").Replace("""", "")
-            Dim val = lines(i).Split({CType(";", Char)})
+            Dim val = lines(i).Split(CType(",", Char))
 
             Try
 
@@ -183,7 +196,7 @@ Module Program
 
                         For l As Long = 1 To lines.Length - 1
                             lines(l) = lines(l).Replace("""", "")
-                        valL = lines(l).Split({CType(";", Char)})
+                        valL = lines(l).Split({CType(",", Char)})
                         Try
 
                                 If valL.Length > 1 Then
@@ -337,10 +350,10 @@ Module Program
                         Dim f As New DataFormatStruct
                         f.Attributes = obstacleGroup
                         f.AttributesPointer1 = obstacleLst.ToArray
-                        If id = -1 Then
-                            f.RootAttribute = valL(obsId) + idCntr
-                        Else
-                            f.RootAttribute = id
+                    If id = -1 Then
+                        f.RootAttribute = valL(obsId) + idCntr
+                    Else
+                        f.RootAttribute = id
 
                         End If
 
@@ -471,7 +484,7 @@ FFF:
                         .WriteAttributeString("created", "", String.Format(Date.UtcNow, "yyyy-MM-dd") & "T" & String.Format(Date.UtcNow, "HH:mm:ss"))
                         .WriteAttributeString("namespace", "", "210444d1-4576-e92d-0983-4669182a8c04")
                         .WriteAttributeString("boundingbox", "", x - 180 & ";" & y - 90 & ";1;1;")
-
+                        .WriteAttributeString("region", "", Region)
 
 
                         Dim cn As Long = 0
@@ -527,7 +540,10 @@ FFF:
     Sub writeObstacle(xmlWriter As XmlWriter, x As DataFormatStruct, rootAttribute As String)
 
 
-        Dim ogrUid As String = getUUID(x.Attributes.txtName & x.Attributes.origin)
+        If x.region Is Nothing Then x.region = Region
+
+
+        Dim ogrUid As String = getUUID("OgrUid|" & x.region & "|" & x.Attributes.txtName & "|" & toOfmxLat(x.AttributesPointer1(0).geolat) & "|" & toOfmxLon(x.AttributesPointer1(0).geolong))
 
 
 
@@ -536,8 +552,9 @@ FFF:
 
         xmlWriter.WriteStartElement("OgrUid")
 
-        'xmlWriter.WriteAttributeString("dbUid", rootAttribute)
-        'xmlWriter.WriteAttributeString("mid", ogrUid)
+        xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+        xmlWriter.WriteAttributeString("mid", ogrUid)
+        xmlWriter.WriteAttributeString("region", x.region)
 
         ' required to identify entity as new
         If x.isNewEntity Then xmlWriter.WriteAttributeString("newEntity", True)
@@ -566,11 +583,17 @@ FFF:
                 xmlWriter.WriteStartElement("Obs")
 
                 xmlWriter.WriteStartElement("ObsUid")
-                'xmlWriter.WriteAttributeString("dbUid", rootAttribute & "." & cntr)
-                'xmlWriter.WriteAttributeString("mid", ogrUid)
+
+                Dim obsUid_0 As String = getUUID("ObsUid|" & x.region & "|" & x.Attributes.txtName & "|" & toOfmxLat(el.geolat) & "|" & toOfmxLon(el.geolong))
+
+
+
+                xmlWriter.WriteAttributeString("mid", obsUid_0)
 
                 xmlWriter.WriteStartElement("OgrUid")
-                'xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                xmlWriter.WriteAttributeString("mid", ogrUid)
+                xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                xmlWriter.WriteAttributeString("region", x.region)
                 xmlWriter.WriteElementString("txtName", x.Attributes.txtName)
                 xmlWriter.WriteElementString("geoLong", toOfmxLon(x.AttributesPointer1(0).geoLong))
                 xmlWriter.WriteElementString("geoLat", toOfmxLat(x.AttributesPointer1(0).geoLat))
@@ -656,11 +679,16 @@ FFF:
                     xmlWriter.WriteElementString("codeGroup", "Y")
 
                     xmlWriter.WriteStartElement("ObsUidLink")
-                    'xmlWriter.WriteAttributeString("dbUid", rootAttribute & "." & cntr)
+                    xmlWriter.WriteAttributeString("dbUid", rootAttribute & "." & cntr)
+                    xmlWriter.WriteAttributeString("region", x.region)
                     'xmlWriter.WriteAttributeString("mid", ogrUid)
 
                     xmlWriter.WriteStartElement("OgrUid")
-                    'xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                    xmlWriter.WriteAttributeString("mid", ogrUid)
+
+                    xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                    xmlWriter.WriteAttributeString("region", x.region)
+
                     xmlWriter.WriteElementString("txtName", x.Attributes.txtName)
                     xmlWriter.WriteElementString("geoLong", toOfmxLon(x.AttributesPointer1(0).geoLong))
                     xmlWriter.WriteElementString("geoLat", toOfmxLat(x.AttributesPointer1(0).geoLat))
@@ -669,6 +697,10 @@ FFF:
 
                     Dim LinkLon As String = toOfmxLon(x.AttributesPointer1(el.ObsUidLink).geoLong)
                     Dim LinkLat As String = toOfmxLat(x.AttributesPointer1(el.ObsUidLink).geoLat)
+
+
+
+
 
                     xmlWriter.WriteElementString("geoLat", LinkLat)
                     xmlWriter.WriteElementString("geoLong", LinkLon)
