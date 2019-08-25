@@ -188,153 +188,155 @@ Module Program
 
                         End Try
 
+                    If obstacleGroup.txtName.ToLower.Contains("seilbahn") Then
+                        Dim kkkk = 3
+                    End If
 
-                        ' find all childs
-                        Dim obstacleLst As New List(Of obstacleStruct)
+                    ' find all childs
+                    Dim obstacleLst As New List(Of obstacleStruct)
                         Dim linkId As Short = 1
                         Dim valL() As String = {""}
 
                         For l As Long = 1 To lines.Length - 1
                             lines(l) = lines(l).Replace("""", "")
-                        valL = lines(l).Split({CType(",", Char)})
-                        Try
+                            valL = lines(l).Split({CType(",", Char)})
+                            Try
 
                                 If valL.Length > 1 Then
 
                                     If valL(groupId) = "" Then valL(groupId) = -1
 
 
+                                    Dim cId As Long
+                                    Try
+                                        cId = CType(valL(groupId) + idCntr, Long)
+                                    Catch ex As Exception
+                                    End Try
 
-                                Dim cId As Long
 
-                                Try
-                                    cId = CType(valL(groupId) + idCntr, Long)
-                                Catch ex As Exception
 
-                                End Try
+                                    If id = cId Or id = -1 Then
 
-                                If id = cId Or id = -1 Then
-
-                                    If id = -1 Then
-                                        valL = val
-                                    End If
-
-                                    Dim obstacle As New obstacleStruct
-                                    If (valL(lighted) = "Y") Then obstacle.codeLgt = True
-                                    If (valL(marked) = "Y") Then obstacle.codeMarking = True
-
-                                    If txtDescrLgt <> -1 Then obstacle.txtDescrLgt = valL(txtDescrLgt)
-                                    obstacle.txtDescrMarking = valL(txtDescrMarking)
-                                    obstacle.valElev = valL(valElev)
-                                    obstacle.valHgt = valL(valHgt)
-
-                                    obstacle.uomDistVer = valL(uomDistVer)
-                                    If (valL(verticalPrecision) = "Y") Then obstacle.codeHgtAccuracy = True
-                                    obstacle.valRadius = valL(valRadius)
-                                    obstacle.uomRadius = valL(uomRadius)
-                                    obstacle.datetimeValidWef = valL(datetimeValidWef)
-                                    obstacle.datetimeValidTil = valL(datetimeValidTil)
-                                    obstacle.txtRmk = valL(txtRmk)
-                                    obstacle.txtName = valL(name)
-
-                                    ' handle coord format
-
-                                    Dim latFac As Long = 1
-                                    Dim lonFac As Long = 1
-                                    If valL(latitude).Contains("N") Or valL(latitude).Contains("S") And valL(longitutde).Contains("E") Or valL(longitutde).Contains("W") Then
-
-                                        If valL(latitude).Contains("S") Then
-                                            latFac = -1
+                                        If id = -1 Then
+                                            valL = val
                                         End If
 
-                                        If valL(longitutde).Contains("W") Then
-                                            lonFac = -1
+                                        Dim obstacle As New obstacleStruct
+                                        If (valL(lighted) = "Y") Then obstacle.codeLgt = True
+                                        If (valL(marked) = "Y") Then obstacle.codeMarking = True
+
+                                        If txtDescrLgt <> -1 Then obstacle.txtDescrLgt = valL(txtDescrLgt)
+                                        obstacle.txtDescrMarking = valL(txtDescrMarking)
+                                        obstacle.valElev = valL(valElev)
+                                        obstacle.valHgt = valL(valHgt)
+
+                                        obstacle.uomDistVer = valL(uomDistVer)
+                                        If (valL(verticalPrecision) = "Y") Then obstacle.codeHgtAccuracy = True
+                                        obstacle.valRadius = valL(valRadius)
+                                        obstacle.uomRadius = valL(uomRadius)
+                                        obstacle.datetimeValidWef = valL(datetimeValidWef)
+                                        obstacle.datetimeValidTil = valL(datetimeValidTil)
+                                        obstacle.txtRmk = valL(txtRmk)
+                                        obstacle.txtName = valL(name)
+
+                                        ' handle coord format
+
+                                        Dim latFac As Long = 1
+                                        Dim lonFac As Long = 1
+                                        If valL(latitude).Contains("N") Or valL(latitude).Contains("S") And valL(longitutde).Contains("E") Or valL(longitutde).Contains("W") Then
+
+                                            If valL(latitude).Contains("S") Then
+                                                latFac = -1
+                                            End If
+
+                                            If valL(longitutde).Contains("W") Then
+                                                lonFac = -1
+                                            End If
+
+                                            obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo).Replace("N", "").Replace("S", "") * latFac
+                                            obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo).Replace("E", "").Replace("W", "") * lonFac
+                                        Else
+                                            obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo)
+                                            obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo)
                                         End If
 
-                                        obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo).Replace("N", "").Replace("S", "") * latFac
-                                        obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo).Replace("E", "").Replace("W", "") * lonFac
+
+                                        ' add to buffer array, for later tile export
+                                        Dim xIdx As Long = Math.Floor(obstacle.geoLong) + 180
+                                        Dim yIdx As Long = Math.Floor(obstacle.geoLat) + 90
+
+                                        If TileX(xIdx) Is Nothing Then TileX(xIdx) = New List(Of String)
+                                        If TileY(yIdx) Is Nothing Then TileY(yIdx) = New List(Of String)
+
+                                        If id = -1 Then
+                                            Dim tempId = valL(obsId) + idCntr
+                                            If TileX(xIdx).Contains(tempId) = False Then TileX(xIdx).Add(tempId)
+                                            If TileY(yIdx).Contains(tempId) = False Then TileY(yIdx).Add(tempId)
+                                        Else
+                                            If TileX(xIdx).Contains(id) = False Then TileX(xIdx).Add(id)
+                                            If TileY(yIdx).Contains(id) = False Then TileY(yIdx).Add(id)
+                                        End If
+
+                                        ' min / max estimation
+                                        If minX = -200 Or obstacle.geoLong < minX Then minX = obstacle.geoLong
+                                        If maxX = -200 Or obstacle.geoLong > maxX Then maxX = obstacle.geoLong
+
+                                        If minY = -200 Or obstacle.geoLat < minY Then minY = obstacle.geoLat
+                                        If maxY = -200 Or obstacle.geoLat > maxY Then maxY = obstacle.geoLat
+
+                                        'Try
+                                        '    If defaultHeightFlag > -1 Then obstacle.DefaultHeight = valL(defaultHeightFlag)
+                                        'Catch ex As Exception
+
+                                        'End Try
+
+
+                                        Select Case obstacle.uomDistVer
+                                            Case "M"
+                                                If obstacle.valHgt > 300 Then
+                                                    Console.WriteLine("WARN: Height over 300 M, set to 300 M default height")
+                                                    obstacle.codeHgtAccuracy = True
+                                                    obstacle.valHgt = 300
+                                                End If
+
+                                            Case "FT"
+                                                If obstacle.valHgt > 900 Then
+                                                    Console.WriteLine("WARN: Height over 900 FT, set to 300 M default height")
+                                                    obstacle.codeHgtAccuracy = True
+                                                    obstacle.valHgt = 900
+                                                End If
+                                        End Select
+
+
+
+
+                                        obstacle.ObsUidLink = linkId - 1
+                                        obstacle.codeLinkType = valL(linktype)
+
+                                        If obstacle.codeLinkType = "" Or obstacle.codeLinkType = "NULL" Then
+                                            obstacle.codeLinkType = "GROUP"
+                                        End If
+
+                                        obstacle.codeType = valL(codeType)
+
+                                        'Select Case obstacle.txtDescrType
+                                        '    Case "POWERLINE", "CABLEWAY"
+                                        '        obstacle.txtDescrType = "MAST"
+                                        '    Case "BUILDING", "TOWER"
+                                        '        obstacle.txtDescrType = "TOWER"
+                                        '    Case "CRANE"
+                                        '        obstacle.txtDescrType = "CRANE"
+                                        '    Case Else
+                                        '        obstacle.txtDescrType = "TOWER"
+                                        'End Select
+
+                                        obstacleLst.Add(obstacle)
+                                        linkId += 1
+
+                                        ' remove item to not recognize again
+                                        lines(l) = ""
                                     Else
-                                        obstacle.geoLat = valL(latitude).Replace(".", ReplaceTo)
-                                        obstacle.geoLong = valL(longitutde).Replace(".", ReplaceTo)
-                                    End If
-
-
-                                    ' add to buffer array, for later tile export
-                                    Dim xIdx As Long = Math.Floor(obstacle.geoLong) + 180
-                                    Dim yIdx As Long = Math.Floor(obstacle.geoLat) + 90
-
-                                    If TileX(xIdx) Is Nothing Then TileX(xIdx) = New List(Of String)
-                                    If TileY(yIdx) Is Nothing Then TileY(yIdx) = New List(Of String)
-
-                                    If id = -1 Then
-                                        Dim tempId = valL(obsId) + idCntr
-                                        If TileX(xIdx).Contains(tempId) = False Then TileX(xIdx).Add(tempId)
-                                        If TileY(yIdx).Contains(tempId) = False Then TileY(yIdx).Add(tempId)
-                                    Else
-                                        If TileX(xIdx).Contains(id) = False Then TileX(xIdx).Add(id)
-                                        If TileY(yIdx).Contains(id) = False Then TileY(yIdx).Add(id)
-                                    End If
-
-                                    ' min / max estimation
-                                    If minX = -200 Or obstacle.geoLong < minX Then minX = obstacle.geoLong
-                                    If maxX = -200 Or obstacle.geoLong > maxX Then maxX = obstacle.geoLong
-
-                                    If minY = -200 Or obstacle.geoLat < minY Then minY = obstacle.geoLat
-                                    If maxY = -200 Or obstacle.geoLat > maxY Then maxY = obstacle.geoLat
-
-                                    'Try
-                                    '    If defaultHeightFlag > -1 Then obstacle.DefaultHeight = valL(defaultHeightFlag)
-                                    'Catch ex As Exception
-
-                                    'End Try
-
-
-                                    Select Case obstacle.uomDistVer
-                                        Case "M"
-                                            If obstacle.valHgt > 300 Then
-                                                Console.WriteLine("WARN: Height over 300 M, set to 300 M default height")
-                                                obstacle.codeHgtAccuracy = True
-                                                obstacle.valHgt = 300
-                                            End If
-
-                                        Case "FT"
-                                            If obstacle.valHgt > 900 Then
-                                                Console.WriteLine("WARN: Height over 900 FT, set to 300 M default height")
-                                                obstacle.codeHgtAccuracy = True
-                                                obstacle.valHgt = 900
-                                            End If
-                                    End Select
-
-
-
-
-                                    obstacle.ObsUidLink = linkId - 1
-                                    obstacle.codeLinkType = valL(linktype)
-
-                                    If obstacle.codeLinkType = "" Or obstacle.codeLinkType = "NULL" Then
-                                        obstacle.codeLinkType = "GROUP"
-                                    End If
-
-                                    obstacle.codeType = valL(codeType)
-
-                                    'Select Case obstacle.txtDescrType
-                                    '    Case "POWERLINE", "CABLEWAY"
-                                    '        obstacle.txtDescrType = "MAST"
-                                    '    Case "BUILDING", "TOWER"
-                                    '        obstacle.txtDescrType = "TOWER"
-                                    '    Case "CRANE"
-                                    '        obstacle.txtDescrType = "CRANE"
-                                    '    Case Else
-                                    '        obstacle.txtDescrType = "TOWER"
-                                    'End Select
-
-                                    obstacleLst.Add(obstacle)
-                                    linkId += 1
-
-                                    ' remove item to not recognize again
-                                    lines(l) = ""
-                                Else
-                                    linkId = 1
+                                        linkId = 1
                                     End If
 
                                     If id = -1 Then Exit For
@@ -350,10 +352,10 @@ Module Program
                         Dim f As New DataFormatStruct
                         f.Attributes = obstacleGroup
                         f.AttributesPointer1 = obstacleLst.ToArray
-                    If id = -1 Then
-                        f.RootAttribute = valL(obsId) + idCntr
-                    Else
-                        f.RootAttribute = id
+                        If id = -1 Then
+                            f.RootAttribute = valL(obsId) + idCntr
+                        Else
+                            f.RootAttribute = id
 
                         End If
 
