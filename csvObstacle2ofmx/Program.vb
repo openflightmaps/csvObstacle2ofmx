@@ -157,7 +157,7 @@ Module Program
 
         Dim retLst As New List(Of DataFormatStruct)
 
-        Dim idCntr As Long = 5017342
+        Dim idCntr As Long = 0
 
         Dim midCntr As Short = 0
 
@@ -188,9 +188,6 @@ Module Program
 
                         End Try
 
-                    If obstacleGroup.txtName.ToLower.Contains("seilbahn") Then
-                        Dim kkkk = 3
-                    End If
 
                     ' find all childs
                     Dim obstacleLst As New List(Of obstacleStruct)
@@ -463,6 +460,9 @@ FFF:
 
         If Not System.IO.Directory.Exists(System.Environment.CurrentDirectory & "\out") Then System.IO.Directory.CreateDirectory(System.Environment.CurrentDirectory & "\out")
 
+        Dim hashOffset As Long = 0
+        hashOffset = getUUID(Region).ToLower.Replace("a", "").Replace("b", "").Replace("c", "").Replace("d", "").Replace("e", "").Replace("f", "").Replace("-", "").Substring(0, 6)
+
         For x As Long = lowerX + 180 To upperX + 180
             For y As Long = lowerY + 90 To upperY + 90
 
@@ -489,11 +489,13 @@ FFF:
                         .WriteAttributeString("region", "", Region)
 
 
+
+
                         Dim cn As Long = 0
                         For Each ogr In retLst
 
                             If TileX(x).Contains(ogr.RootAttribute) And TileY(y).Contains(ogr.RootAttribute) Then
-                                writeObstacle(XmlWrt, ogr, idCntr)
+                                writeObstacle(XmlWrt, ogr, idCntr + hashOffset)
                                 cn += 1
                                 idCntr += 1
                             End If

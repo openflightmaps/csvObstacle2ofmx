@@ -2,7 +2,7 @@
   "profiles": {
     "ConsoleApp1": {
       "commandName": "Project",
-      "commandLineArgs": "--f obstacles_LO.csv --r LO"
+      "commandLineArgs": "--f obstacles_LO.csv --r LOVV"
     }
   }
 }
