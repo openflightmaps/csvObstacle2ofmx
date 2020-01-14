@@ -556,7 +556,7 @@ FFF:
 
         xmlWriter.WriteStartElement("OgrUid")
 
-        xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+        xmlWriter.WriteAttributeString("_dbUid", rootAttribute)
         xmlWriter.WriteAttributeString("mid", ogrUid)
         xmlWriter.WriteAttributeString("region", x.region)
 
@@ -596,7 +596,7 @@ FFF:
 
                 xmlWriter.WriteStartElement("OgrUid")
                 xmlWriter.WriteAttributeString("mid", ogrUid)
-                xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                xmlWriter.WriteAttributeString("_dbUid", rootAttribute)
                 xmlWriter.WriteAttributeString("region", x.region)
                 xmlWriter.WriteElementString("txtName", x.Attributes.txtName)
                 xmlWriter.WriteElementString("geoLong", toOfmxLon(x.AttributesPointer1(0).geoLong))
@@ -683,14 +683,14 @@ FFF:
                     xmlWriter.WriteElementString("codeGroup", "Y")
 
                     xmlWriter.WriteStartElement("ObsUidLink")
-                    xmlWriter.WriteAttributeString("dbUid", rootAttribute & "." & cntr)
+                    xmlWriter.WriteAttributeString("_dbUid", rootAttribute & "." & cntr)
                     xmlWriter.WriteAttributeString("region", x.region)
                     'xmlWriter.WriteAttributeString("mid", ogrUid)
 
                     xmlWriter.WriteStartElement("OgrUid")
                     xmlWriter.WriteAttributeString("mid", ogrUid)
 
-                    xmlWriter.WriteAttributeString("dbUid", rootAttribute)
+                    xmlWriter.WriteAttributeString("_dbUid", rootAttribute)
                     xmlWriter.WriteAttributeString("region", x.region)
 
                     xmlWriter.WriteElementString("txtName", x.Attributes.txtName)
