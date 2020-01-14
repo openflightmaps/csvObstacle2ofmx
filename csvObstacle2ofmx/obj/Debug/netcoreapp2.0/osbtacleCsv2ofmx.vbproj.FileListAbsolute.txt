@@ -8,4 +8,3 @@ C:\Users\ovord\Source\Repos\csvObstacle2ofmx3\csvObstacle2ofmx\obj\Debug\netcore
 C:\Users\ovord\Source\Repos\csvObstacle2ofmx3\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\osbtacleCsv2ofmx.AssemblyInfo.vb
 C:\Users\ovord\Source\Repos\csvObstacle2ofmx3\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\obstacleCsv2ofmx.dll
 C:\Users\ovord\Source\Repos\csvObstacle2ofmx3\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\obstacleCsv2ofmx.pdb
-C:\Users\ovord\Source\Repos\csvObstacle2ofmx3\csvObstacle2ofmx\obj\Debug\netcoreapp2.0\osbtacleCsv2ofmx.vbprojAssemblyReference.cache
