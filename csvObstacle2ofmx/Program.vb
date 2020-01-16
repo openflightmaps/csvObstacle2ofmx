@@ -165,7 +165,7 @@ Module Program
 
             Dim obstacleGroup As New obstacleGroupStruct
             lines(i) = lines(i).Replace(vbNewLine, " ").Replace("""", "")
-            Dim val = lines(i).Split(CType(",", Char))
+            Dim val = lines(i).Split({CType(";", Char), CType(",", Char)})
 
             Try
 
@@ -196,8 +196,8 @@ Module Program
 
                         For l As Long = 1 To lines.Length - 1
                             lines(l) = lines(l).Replace("""", "")
-                            valL = lines(l).Split({CType(",", Char)})
-                            Try
+                        valL = lines(l).Split({CType(";", Char), CType(",", Char)})
+                        Try
 
                                 If valL.Length > 1 Then
 
