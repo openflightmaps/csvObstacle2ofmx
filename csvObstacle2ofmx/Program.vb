@@ -228,8 +228,8 @@ Module Program
                                         obstacle.valHgt = valL(valHgt)
 
                                         obstacle.uomDistVer = valL(uomDistVer)
-                                        If (valL(verticalPrecision) = "Y") Then obstacle.codeHgtAccuracy = True
-                                        obstacle.valRadius = valL(valRadius)
+                                    If (valL(verticalPrecision) = "1" Or valL(verticalPrecision) = "true" Or valL(verticalPrecision) = "Y") Then obstacle.codeHgtAccuracy = True
+                                    obstacle.valRadius = valL(valRadius)
                                         obstacle.uomRadius = valL(uomRadius)
                                         obstacle.datetimeValidWef = valL(datetimeValidWef)
                                         obstacle.datetimeValidTil = valL(datetimeValidTil)
